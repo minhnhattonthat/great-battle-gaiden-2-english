@@ -31,9 +31,18 @@ Skill: translate-retro-game (H:/translation/great-battle-gaiden-2/.claude/skills
   (strings $0B:E211). Price 円 tile E8 redrawn as bold ¥ (font/extra.txt). Advance dialogue with B, not A.
 - Scans: `--script tools/lua/bg3scan.lua` logs BG3 kana outside messages (none left past boot in a 85k-frame tour).
 
+## Graphics (gfx/, applied by build from gfx/graphics.json)
+- PNG entries: `tools/gfx.py export DUMP --bg N|0 --rect` (0 = sprites) from a `tools/lua/ppudump.lua` dump, edit
+  (tools/gfxtext.py spec or a gfx/*.py drawer), import maps VRAM->ROM (find with tools/vramfind.py). Script entries:
+  gfx/<name>.py apply(rom) for tiles + tilemap record streams (bank $21: word count, word VRAM, entries).
+- Done: title logo/top line/menu, MINIGAME sub-menu, stage banner (spring seen; other seasons drawn blind),
+  game over + YES/NO, HUD YEN, password screen (texts + header), game corner header.
+
 ## Status (2026-10-10)
-- Done: all 198 messages translated (b1, b2), astra-reviewed (0 Critical; Importants fixed, docs/review/), item
-  names, game-over text. In game checked: intro talk, player select, Emmy guide, stall pop-ups, game over.
-- Next: graphics with Japanese (title logo, 春のお祭り stage banners, げーむおーばー + はい/いいえ, HUD 円 sprite,
-  stall signs, げーむ sign); reach minigames/bosses/ending (random tour never got past stage 1); release.
+- Done: all 198 messages translated + astra-reviewed (docs/review/), item names, game over/continue text, graphics
+  above. In game checked: title, password, minigame menu, game corner, intro talk, player select, Emmy guide, stall
+  pop-ups, stage banner, HUD, game over.
+- Next (JP left): attract copyright cards (©石森プロ etc.), stall/gate signs on the map, げーむ sign in Emmy's room,
+  minigame play screens, stages 2-4 (banners blind), bosses, ending/credits (never reached: random tours stay in
+  stage 1; needs a route or RAM stage select). Then release (BPS, README).
 - Polish pass: translator notes listed in docs/review/2026-10-10-astra.md.

@@ -36,5 +36,9 @@
   "map": "0000:BEC00",
   "allow_outside": "mirror32",
   "note": "password header PASSWORD (BG1; tiles also used by the mirrored right half)"
+ },
+ {
+  "script": "gc_head.py",
+  "note": "game corner header GAME CORNER (BG1 tiles 0xA8980, records 0x10D38C)"
  }
 ]
