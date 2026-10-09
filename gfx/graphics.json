@@ -5,6 +5,11 @@
   "note": "title menu PASSWORD START MINIGAME (BG3 tiles $100+)"
  },
  {
+  "png": "mg_menu.png",
+  "map": "9000:9E800",
+  "note": "title MINIGAME sub-menu (BG3, same tiles block as the title menu)"
+ },
+ {
   "png": "title_logo.png",
   "map": "0000:C2000",
   "note": "title logo, BG1 (drawn by gfx/logo.py)"
@@ -21,5 +26,15 @@
  {
   "script": "banner.py",
   "note": "stage banners (season + FESTIVAL), sprite sheet 0x36400"
+ },
+ {
+  "script": "password.py",
+  "note": "password screen texts (BG3 words, bank 21 copy loops) -> bank 3F"
+ },
+ {
+  "png": "pw_head.png",
+  "map": "0000:BEC00",
+  "allow_outside": "mirror32",
+  "note": "password header PASSWORD (BG1; tiles also used by the mirrored right half)"
  }
 ]

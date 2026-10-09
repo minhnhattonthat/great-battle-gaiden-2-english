@@ -1,0 +1,11 @@
+# Title MINIGAME sub-menu, BG3 rows 16-21 (fixed cell spans; highlight = palette swap)
+32 0 80   | clear
+144 0 80   | clear
+104 16 48   | clear
+32 32 80   | clear
+144 32 88   | clear
+32 0 80 SHOOTING
+144 0 80 BLOCK BREAK | adv=7
+104 16 48 EXIT
+32 32 80 PUZZLE GAME | adv=7
+144 32 88 CHICK CATCH

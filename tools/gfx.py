@@ -144,8 +144,9 @@ def main():
     Path(a.rom).write_bytes(rom)
 
 
-def import_png(png, rom, mapping):
-    """Write the edited PNG's tiles into rom (bytearray). mapping: 'VRAMBYTE:ROMOFF[,...]' hex. -> tiles changed."""
+def import_png(png, rom, mapping, allow_outside=False):
+    """Write the edited PNG's tiles into rom (bytearray). mapping: 'VRAMBYTE:ROMOFF[,...]' hex. -> tiles changed.
+    allow_outside="mirror32": a changed tile may also appear 32 cells to the right (mirrored copy of the screen)."""
     meta = json.loads(Path(png).with_suffix(".json").read_text())
     L, (x0, y0, w, h), pal = meta["layer"], meta["rect"], [tuple(c) for c in meta["palette"]]
     cm = {tuple(map(int, k.split(","))): v for k, v in meta["cells"].items()}
@@ -177,6 +178,8 @@ def import_png(png, rom, mapping):
         if rom[src:src + len(data)] == data:
             continue
         users = [c for c, v in cm.items() if v[0] == addr and c not in inside]
+        if allow_outside == "mirror32":  # the same rect repeated 32 cells to the right (2-screen-wide map)
+            users = [(x, y) for x, y in users if (x - 32, y) not in inside]
         if users:
             raise SystemExit(f"tile {addr:04X} changed but also used outside the rect at {users[:4]}")
         rom[src:src + len(data)] = data

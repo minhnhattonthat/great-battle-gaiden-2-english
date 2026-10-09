@@ -183,7 +183,7 @@ def build(out, use_marker=False):
             spec.loader.exec_module(mod)
             mod.apply(rom)
         else:
-            gfx.import_png(ROOT / "gfx" / g["png"], rom, g["map"])
+            gfx.import_png(ROOT / "gfx" / g["png"], rom, g["map"], g.get("allow_outside", False))
 
     # headers: start one row higher (lines are 1 row apart now; see asm)
     for h in {e["hdr"] for e in script}:

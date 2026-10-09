@@ -14,9 +14,12 @@
 D418C-D41EB     message headers (vram start -1 row)
 140000-147FFF   bank $28: body table + bodies
 1F8000-1F80FF   bank $3F: asm code
-9E800-9EFFF     title BG3 tiles (menu graphics)
+9E800-9F0AF     title BG3 tiles (menu + minigame sub-menu graphics)
 8E000-8FFFF     title sprite tiles (top line)
 C2000-C5FFF     title BG1 tiles (logo)
 55100-560FF     game over BG1 tiles
 10CEF0-10CF45   game over BG1 tilemap stream
 36400-375FF     stage banner sprite sheet (seasons + FESTIVAL)
+BEC00-BF23F     password screen BG1 tiles (header)
+1F9000-1F92FF   bank $3F: password screen strings
+10E828-10EF30   password screen copy-loop operands + dakuten immediates (bank $21)
