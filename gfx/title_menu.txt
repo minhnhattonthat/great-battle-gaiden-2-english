@@ -1,0 +1,4 @@
+# Title menu, BG3 rows 20-21 (each item has a fixed cell span; highlight = palette swap)
+16 0 64 PASSWORD | clear
+96 0 48 START | clear
+160 0 64 MINIGAME | clear

@@ -18,7 +18,7 @@ Skill: translate-retro-game (H:/translation/great-battle-gaiden-2/.claude/skills
 
 ## Rulings (user, 2026-10-10)
 - Names: official English (franchise) first, else Hepburn no macrons. Honorifics kept, JP name order.
-- Credits in English. Plans pre-approved. No abbreviations (engine work / extra pages first).
+- Credits in English. Plans pre-approved. Graphics: translate all, title logo included. No abbreviations (engine work / extra pages first).
 - Review agents: multi-openai gpt-6-astra (they can't write files: save reports yourself).
 
 ## Engine

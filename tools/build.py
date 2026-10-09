@@ -15,6 +15,7 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+import gfx  # noqa: E402
 import text  # noqa: E402
 from tbl import Table  # noqa: E402
 
@@ -174,6 +175,8 @@ def build(out, use_marker=False):
     if r.returncode:
         raise SystemExit(f"asar failed:\n{r.stdout}{r.stderr}")
     rom = bytearray(out.read_bytes())
+    for g in json.loads((ROOT / "gfx" / "graphics.json").read_text(encoding="utf-8")):
+        gfx.import_png(ROOT / "gfx" / g["png"], rom, g["map"])
 
     # headers: start one row higher (lines are 1 row apart now; see asm)
     for h in {e["hdr"] for e in script}:

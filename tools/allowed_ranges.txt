@@ -14,3 +14,4 @@
 D418C-D41EB     message headers (vram start -1 row)
 140000-147FFF   bank $28: body table + bodies
 1F8000-1F80FF   bank $3F: asm code
+9E800-9EFFF     title BG3 tiles (menu graphics)
