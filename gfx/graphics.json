@@ -17,5 +17,9 @@
  {
   "script": "gameover.py",
   "note": "game over: GAME OVER logo + YES/NO tiles, tilemap stream 0x10CEF0"
+ },
+ {
+  "script": "banner.py",
+  "note": "stage banners (season + FESTIVAL), sprite sheet 0x36400"
  }
 ]

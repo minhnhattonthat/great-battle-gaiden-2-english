@@ -19,3 +19,4 @@ D418C-D41EB     message headers (vram start -1 row)
 C2000-C5FFF     title BG1 tiles (logo)
 55100-560FF     game over BG1 tiles
 10CEF0-10CF45   game over BG1 tilemap stream
+36400-375FF     stage banner sprite sheet (seasons + FESTIVAL)
