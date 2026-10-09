@@ -17,3 +17,5 @@ D418C-D41EB     message headers (vram start -1 row)
 9E800-9EFFF     title BG3 tiles (menu graphics)
 8E000-8FFFF     title sprite tiles (top line)
 C2000-C5FFF     title BG1 tiles (logo)
+55100-560FF     game over BG1 tiles
+10CEF0-10CF45   game over BG1 tilemap stream

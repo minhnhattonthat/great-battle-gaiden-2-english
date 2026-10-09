@@ -13,5 +13,9 @@
   "png": "title_top.png",
   "map": "C000:8E000",
   "note": "title top line THE GREAT BATTLE / GAIDEN (sprites)"
+ },
+ {
+  "script": "gameover.py",
+  "note": "game over: GAME OVER logo + YES/NO tiles, tilemap stream 0x10CEF0"
  }
 ]

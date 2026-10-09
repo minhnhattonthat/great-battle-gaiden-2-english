@@ -7,6 +7,7 @@ out one row apart, or two rows apart (the Japanese layout) when every page of th
 {n} forces a line break. Control codes are zero-width. Empty `en` = Japanese, or a marker with --marker.
 """
 import argparse
+import importlib.util
 import json
 import re
 import subprocess
@@ -176,7 +177,13 @@ def build(out, use_marker=False):
         raise SystemExit(f"asar failed:\n{r.stdout}{r.stderr}")
     rom = bytearray(out.read_bytes())
     for g in json.loads((ROOT / "gfx" / "graphics.json").read_text(encoding="utf-8")):
-        gfx.import_png(ROOT / "gfx" / g["png"], rom, g["map"])
+        if "script" in g:  # gfx/<name>.py with apply(rom): draws tiles / tilemaps directly
+            spec = importlib.util.spec_from_file_location(g["script"], ROOT / "gfx" / g["script"])
+            mod = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(mod)
+            mod.apply(rom)
+        else:
+            gfx.import_png(ROOT / "gfx" / g["png"], rom, g["map"])
 
     # headers: start one row higher (lines are 1 row apart now; see asm)
     for h in {e["hdr"] for e in script}:
