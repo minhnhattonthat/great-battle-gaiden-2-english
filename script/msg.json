@@ -4,7 +4,7 @@
   "hdr": "C18C",
   "ptr": "D429",
   "jp": "ステージをえらんでくれ！{end}",
-  "en": "",
+  "en": "Pick a stage!{end}",
   "notes": ""
  },
  {
@@ -12,7 +12,7 @@
   "hdr": "C192",
   "ptr": "D028",
   "jp": "らっしゃい、{n}やきたてのたこやきだよ。{end}",
-  "en": "",
+  "en": "Step right up! Takoyaki, hot off the grill!{end}",
   "notes": ""
  },
  {
@@ -20,7 +20,7 @@
   "hdr": "C192",
   "ptr": "D03D",
   "jp": "まいどありー、こいつは{n}きょうりょくだよ。{end}",
-  "en": "",
+  "en": "Thank ya kindly! This stuff packs a punch!{end}",
   "notes": ""
  },
  {
@@ -28,7 +28,7 @@
   "hdr": "C192",
   "ptr": "D055",
   "jp": "おきゃくさん、{n}もうもってるよ。{end}",
-  "en": "",
+  "en": "Hey, friend, you've already got one!{end}",
   "notes": ""
  },
  {
@@ -36,7 +36,7 @@
   "hdr": "C192",
   "ptr": "D066",
   "jp": "おきゃくさん、{n}おかねがたりないよ。{end}",
-  "en": "",
+  "en": "Hey, friend, you're short on cash!{end}",
   "notes": ""
  },
  {
@@ -44,7 +44,7 @@
   "hdr": "C192",
   "ptr": "D07A",
   "jp": "またどうぞ{end}",
-  "en": "",
+  "en": "Come again!{end}",
   "notes": ""
  },
  {
@@ -52,7 +52,7 @@
   "hdr": "C192",
   "ptr": "D082",
   "jp": "ハーイ、たこやきいかが。{end}",
-  "en": "",
+  "en": "Hi there! How about some takoyaki?{end}",
   "notes": ""
  },
  {
@@ -60,7 +60,7 @@
   "hdr": "C192",
   "ptr": "D090",
   "jp": "はい、どうぞ。{end}",
-  "en": "",
+  "en": "Here you go!{end}",
   "notes": ""
  },
  {
@@ -68,7 +68,7 @@
   "hdr": "C192",
   "ptr": "D09A",
   "jp": "やーね、もってるじゃない。{end}",
-  "en": "",
+  "en": "Oh, come on, you already have one!{end}",
   "notes": ""
  },
  {
@@ -76,7 +76,7 @@
   "hdr": "C192",
   "ptr": "D0A9",
   "jp": "うそー、おかねがたりないわ{end}",
-  "en": "",
+  "en": "No way! You don't have enough money!{end}",
   "notes": ""
  },
  {
@@ -84,7 +84,7 @@
   "hdr": "C192",
   "ptr": "D0B8",
   "jp": "またきてね。{end}",
-  "en": "",
+  "en": "Come back soon!{end}",
   "notes": ""
  },
  {
@@ -92,7 +92,7 @@
   "hdr": "C198",
   "ptr": "D438",
   "jp": "ここはボーナスゲームです！{wait:08}{n}じかんないにおちてくる{n}いろいろな　ひよこを{n}ひろいまくってね！{wait:08}{wait:10}{page}た{wait:03}だ{wait:03}し{wait:03}、{wait:03}くろひよこはだめよ！{wait:08}{wait:10}{n}{n}　それじゃ　がんばってね{wait:03}{end}",
-  "en": "",
+  "en": "This is the bonus game!{wait:08} Before time runs out, catch all the different chicks that fall!{wait:08}{wait:10}{page}Just{wait:03} one{wait:03} thing{wait:03}:{wait:03} no black chicks!{wait:08}{wait:10}{n}{n}Well then, good luck!{wait:03}{end}",
   "notes": ""
  },
  {
@@ -100,7 +100,7 @@
   "hdr": "C198",
   "ptr": "D4A1",
   "jp": "さあ　ここはパズルゲームよ！{wait:08}{page}よみせでおなじみのたべものを{n}　　タテ・ヨコ・ナナメに{n}３つならべて　けしていこう{wait:20}{page}ミドリの　いぐすりをけすと{n}ポイントがへっちゃいます！{wait:20}{n}おなかがいっぱいになったら{n}ゲームクリアよ！{end}",
-  "en": "",
+  "en": "Now, this is the puzzle game!{wait:08}{page}Line up 3 of the same festival-stall foods across, down or diagonally to clear them!{wait:20}{page}Clear the green stomach medicine and you lose points!{wait:20}{n}Once your tummy is full, you clear the game!{end}",
   "notes": ""
  },
  {
@@ -108,7 +108,7 @@
   "hdr": "C198",
   "ptr": "D521",
   "jp": "さあ！{wait:08}シューティングゲームよ！{wait:08}{n}バリバリ　てきをたおして{n}クリアをめざしてね！{end}",
-  "en": "",
+  "en": "Now!{wait:08} It's the shooting game!{wait:08} Blast away the enemies and make it to the clear!{end}",
   "notes": ""
  },
  {
@@ -116,7 +116,7 @@
   "hdr": "C19E",
   "ptr": "D59A",
   "jp": "ようこそコンパチヒーローズ！{wait:10}{n}でも　{wait:0C}かんげいのあいさつは{wait:08}{n}これまで！{key}{page}わたしの　たのもしいむすこが{wait:10}{n}あなたがたの　おあいてよ{wait:0C}{n}さあ　{wait:0C}かくごなさい！{key}{end}",
-  "en": "",
+  "en": "Welcome, Compati Heroes!{wait:10} But{wait:0C} that's enough of the welcome{wait:08} greetings!{key}{page}My dependable son{wait:10} will be your opponent.{wait:0C} Now{wait:0C} prepare yourselves!{key}{end}",
   "notes": ""
  },
  {
@@ -124,7 +124,7 @@
   "hdr": "C198",
   "ptr": "D5FA",
   "jp": "さあ　{wait:03}ブロックくずしゲームに{n}ちょうせんです！！{wait:10}{page}　せまってくる　ブロックに{n}　　じゃまされないように{n}ゴールへボールをはこんでね！{end}",
-  "en": "",
+  "en": "Now{wait:03} take on the block-breaking game!!{wait:10}{page}Don't let the blocks closing in get in your way, and carry the ball to the goal!{end}",
   "notes": ""
  },
  {
@@ -132,7 +132,7 @@
   "hdr": "C1AA",
   "ptr": "D64A",
   "jp": "げふっ・{wait:10}げふ・げふ・げふっ{wait:10}{n}おれのまけだ！{key}{page}だが　{wait:0C}このままでおわると{wait:0C}{n}おもうなよ！{key}{end}",
-  "en": "",
+  "en": "Ack...{wait:10} ack, ack, ack!{wait:10} I lose!{key}{page}But{wait:0C} don't think this{wait:0C} is the end of it!{key}{end}",
   "notes": ""
  },
  {
@@ -140,7 +140,7 @@
   "hdr": "C1AA",
   "ptr": "D686",
   "jp": "おれたちに　かつには{wait:0C}{n}４まん６せんにち　{wait:0C}はやいわ！{key}{page}またこい！　{wait:10}いつでも{n}あいてになってやるぞ！{key}{end}",
-  "en": "",
+  "en": "You're trying to beat us?{wait:0C} You're 46,000 days{wait:0C} too early!{key}{page}Come again!{wait:10} We'll take you on anytime!{key}{end}",
   "notes": ""
  },
  {
@@ -148,7 +148,7 @@
   "hdr": "C1AA",
   "ptr": "D6C1",
   "jp": "わたしのぼうや{wait:10}・{wait:10}・{wait:10}・{wait:10}{n}なんてよわいこなんでしょう！{key}{page}これからは　もっとつよいこに{wait:10}{n}そだてなければ{key}{end}",
-  "en": "",
+  "en": "My little boy{wait:10}.{wait:10}.{wait:10}.{wait:10} What a weakling you are!{key}{page}From now on I must raise you{wait:10} to be much stronger.{key}{end}",
   "notes": ""
  },
  {
@@ -156,7 +156,7 @@
   "hdr": "C1AA",
   "ptr": "D702",
   "jp": "ほっほっほっほっほ！{wait:10}{n}さすがは　わがむすこ！{wait:10}{n}たのもしいですわ！{key}{page}えっ？{wait:10}{n}おやがてをだすなですって？{key}{page}そういうのは{wait:08}{n}まけおしみっていうのよね！{key}{end}",
-  "en": "",
+  "en": "Ohohohohoho!{wait:10} That's my son!{wait:10} So dependable!{key}{page}What?{wait:10} Parents shouldn't lend a hand?{key}{page}That's what they call{wait:08} sour grapes, dear!{key}{end}",
   "notes": ""
  },
  {
@@ -164,7 +164,7 @@
   "hdr": "C19E",
   "ptr": "D75B",
   "jp": "わたしたちは　かみなりもん！{wait:10}{n}・{wait:10}・{wait:10}・{wait:10}と　みせかけた{wait:0C}{page}ちょうちんカプール{n}あーんど　ガズきょうだいだ！{key}{page}おれたちの　こうげきを{n}うけてみろ！{key}{end}",
-  "en": "",
+  "en": "We are the Kaminarimon!{wait:10} .{wait:10}.{wait:10}.{wait:10} or so we made it look!{wait:0C}{page}We're Lantern Capule a-a-and the Gaz Brothers!{key}{page}Take this attack of ours!{key}{end}",
   "notes": ""
  },
  {
@@ -172,7 +172,7 @@
   "hdr": "C1B0",
   "ptr": "D7B4",
   "jp": "いらっしゃいませ{wait:03}{page}バンプレショップへようこそ{wait:08}{page}きみもおこづかいで{wait:08}{n}マシンのパワーアップをしよう！{wait:10}{page}{end}",
-  "en": "",
+  "en": "Come on in!{wait:03}{page}Welcome to the Banpre Shop!{wait:08}{page}Spend your pocket money{wait:08} and power up your machine!{wait:10}{page}{end}",
   "notes": ""
  },
  {
@@ -180,7 +180,7 @@
   "hdr": "C1B0",
   "ptr": "D7F5",
   "jp": "れんしゃがアップします{end}",
-  "en": "",
+  "en": "Boosts your rapid fire.{end}",
   "notes": ""
  },
  {
@@ -188,7 +188,7 @@
   "hdr": "C1B0",
   "ptr": "D803",
   "jp": "スピードアップです{end}",
-  "en": "",
+  "en": "It's a speed-up.{end}",
   "notes": ""
  },
  {
@@ -196,7 +196,7 @@
   "hdr": "C1B0",
   "ptr": "D811",
   "jp": "いりょくがあがります{end}",
-  "en": "",
+  "en": "Raises your firepower.{end}",
   "notes": ""
  },
  {
@@ -204,7 +204,7 @@
   "hdr": "C1B0",
   "ptr": "D81E",
   "jp": "シールドがつきます{end}",
-  "en": "",
+  "en": "Gives you a shield.{end}",
   "notes": ""
  },
  {
@@ -212,7 +212,7 @@
   "hdr": "C1B0",
   "ptr": "D82A",
   "jp": "ありがとうございます{end}",
-  "en": "",
+  "en": "Thank you very much!{end}",
   "notes": ""
  },
  {
@@ -220,7 +220,7 @@
   "hdr": "C1B0",
   "ptr": "D838",
   "jp": "おかねがたらないよ{end}",
-  "en": "",
+  "en": "You don't have enough money.{end}",
   "notes": ""
  },
  {
@@ -228,7 +228,7 @@
   "hdr": "C1B0",
   "ptr": "D843",
   "jp": "うりきれです{end}",
-  "en": "",
+  "en": "Sold out.{end}",
   "notes": ""
  },
  {
@@ -236,7 +236,7 @@
   "hdr": "C1B0",
   "ptr": "D84B",
   "jp": "だから　うりきれですってば　・　{wait:03}・　{wait:03}{end}",
-  "en": "",
+  "en": "Like I said, it's SOLD OUT.{wait:03}.{wait:03}.{end}",
   "notes": ""
  },
  {
@@ -244,7 +244,7 @@
   "hdr": "C1B0",
   "ptr": "D865",
   "jp": "おかえりですか{end}",
-  "en": "",
+  "en": "Leaving already?{end}",
   "notes": ""
  },
  {
@@ -252,7 +252,7 @@
   "hdr": "C1B0",
   "ptr": "D86E",
   "jp": "ありがとうございました{end}",
-  "en": "",
+  "en": "Thank you for coming!{end}",
   "notes": ""
  },
  {
@@ -260,7 +260,7 @@
   "hdr": "C19E",
   "ptr": "D87D",
   "jp": "きたな！{wait:0C}{n}コンパチヒーローズ！{key}{page}このおれの　スピードに{wait:10}{n}ついてこれるものなら{wait:0C}{n}ついてきてみろ！{key}{end}",
-  "en": "",
+  "en": "So you came!{wait:0C} Compati Heroes!{key}{page}This speed of mine...{wait:10} if you think you can keep up,{wait:0C} then try it!{key}{end}",
   "notes": ""
  },
  {
@@ -268,7 +268,7 @@
   "hdr": "C1B6",
   "ptr": "EC4B",
   "jp": "ふふふ　コンパチヒーローズ　たのしみにしておるぞ{n}ふふふふ・・・　　はははははは・・・・・・・{wait:20}{page}{end}",
-  "en": "",
+  "en": "Heh heh heh, Compati Heroes, I look forward to it. Heh heh heh heh... Ha ha ha ha ha ha.......{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -276,7 +276,7 @@
   "hdr": "C1C2",
   "ptr": "D8B9",
   "jp": "{fast}グレート{slow}{n}「ようＲＸ　げんきそうじゃねぇか！{wait:10}{page}　まつりのじゅんびは　すすんでるのかい？」{key}{end}",
-  "en": "",
+  "en": "{fast}Great{slow}{n}\"Yo, RX! Lookin' lively, ain't ya!{wait:10}{page}How're the festival preparations comin' along?\"{key}{end}",
   "notes": ""
  },
  {
@@ -284,7 +284,7 @@
   "hdr": "C1C2",
   "ptr": "D8F1",
   "jp": "{fast}ＲＸ{slow}{n}「あったりめえよ！　ぬかりはねえさ！！{wait:10}{page}　しかしグレートよ{n}　こう　へいわがつづきやがると{n}　たいくつで　しょうがねぇやな{key}{page}　おう！　ステイメン！！{wait:10}{n}　おめえさんのとこは　どうだい？」{key}{end}",
-  "en": "",
+  "en": "{fast}RX{slow}{n}\"Course they are! Ain't nothin' slippin' past me!!{wait:10}{page}But Great, with peace draggin' on like this, I'm bored outta my skull, I tell ya.{key}{page}Hey! Stamen!!{wait:10} How're things on your end, pal?\"{key}{end}",
   "notes": ""
  },
  {
@@ -292,7 +292,7 @@
   "hdr": "C1C2",
   "ptr": "D961",
   "jp": "{fast}ステイメン{slow}{n}「そうだな　ひまはないけど{wait:10}{page}　”せいぎのヒーロー”は{n}　ちょっとおやすみってところだな{key}{page}　でも　わすれちゃいけない{n}　ぼくらがここにいるのは{n}　”まつりのへいわ”をまもるため！{key}{page}　だから　ぼくらが　たいくつってことは{n}　いいことなのだ！」{key}{end}",
-  "en": "",
+  "en": "{fast}Stamen{slow}{n}\"Well, I'm not short of things to do,{wait:10}{page}but you could say the 'heroes of justice' are taking a little break.{key}{page}Still, we mustn't forget: the reason we're here is to protect 'the festival's peace'!{key}{page}So if we're bored, that's a good thing!\"{key}{end}",
   "notes": ""
  },
  {
@@ -300,7 +300,7 @@
   "hdr": "C1C2",
   "ptr": "D9F1",
   "jp": "{fast}ロア{slow}{n}「そのとおり！{wait:10}{page}　でも　たいくつだからって{n}　きをぬいちゃいけないよ」{key}{end}",
-  "en": "",
+  "en": "{fast}Roar{slow}{n}\"Exactly!{wait:10}{page}But being bored doesn't mean we can let our guard down.\"{key}{end}",
   "notes": ""
  },
  {
@@ -308,7 +308,7 @@
   "hdr": "C1C2",
   "ptr": "DA1F",
   "jp": "{fast}？？{slow}{n}「そこにいたか！　コンパチヒーローズ{key}{end}",
-  "en": "",
+  "en": "{fast}??{slow}{n}\"So there you are! Compati Heroes!{key}{end}",
   "notes": ""
  },
  {
@@ -316,7 +316,7 @@
   "hdr": "C1C2",
   "ptr": "DA3A",
   "jp": "{fast}？？{slow}{n}「きみたちにつたえておく！{wait:10}{page}　”コンパチワールドまつり”は{n}　このわたしが　あずからせていただく！」{key}{end}",
-  "en": "",
+  "en": "{fast}??{slow}{n}\"I have news for you!{wait:10}{page}I shall be taking the 'Compati World Festival' off your hands!\"{key}{end}",
   "notes": ""
  },
  {
@@ -324,7 +324,7 @@
   "hdr": "C1C2",
   "ptr": "DA7A",
   "jp": "{fast}ＲＸ{slow}{n}「まつりをあずかるだって！？{n}　おまえはだれだ　しょうたいをみせろ」{key}{end}",
-  "en": "",
+  "en": "{fast}RX{slow}{n}\"Takin' the festival off our hands!? Who the heck are you? Show yourself!\"{key}{end}",
   "notes": ""
  },
  {
@@ -332,7 +332,7 @@
   "hdr": "C1C2",
   "ptr": "DAA7",
   "jp": "{fast}？？{slow}{n}「ふふふのふ　{wait:10}おまつりになると{wait:10}{page}　どこからともなく　あらわれる・・・{wait:18}{page}　ひとよんで”まつりのあらし”{n}　フェスティバルたいてい　であーる！{key}{page}じつは　このわたしから　きみたちに{n}すばらしいプレゼントが　あるのじゃよ！！{key}{page}すべての　おまつりに　いきわたるように{n}たくさんよういしておいたから{n}えんりょなく　うけとるがよいわ！」{key}{end}",
-  "en": "",
+  "en": "{fast}??{slow}{n}\"Heh heh heh-heh!{wait:10} Whenever there's a festival,{wait:10}{page}from out of nowhere I appear...{wait:18}{page}They call me the 'Festival Storm'! I a-am Emperor Festival!{key}{page}And in fact, I have a wonderful present for you all!!{key}{page}I've prepared plenty, enough to go around every festival, so don't be shy, take it!\"{key}{end}",
   "notes": ""
  },
  {
@@ -340,7 +340,7 @@
   "hdr": "C1C2",
   "ptr": "DB63",
   "jp": "{fast}グレート{slow}{n}「なんと！　こりゃあ　はるまつりのある{n}　ネオ・アサクサ　じゃねえか！！」{key}{end}",
-  "en": "",
+  "en": "{fast}Great{slow}{n}\"What the!? Why, that's Neo Asakusa, where the spring festival is!!\"{key}{end}",
   "notes": ""
  },
  {
@@ -348,7 +348,7 @@
   "hdr": "C1C2",
   "ptr": "DB93",
   "jp": "{fast}ＲＸ{slow}{n}「このままじゃ　ネオ・アサクサで{n}　おまつりが　できなくなっちまう！！」{key}{end}",
-  "en": "",
+  "en": "{fast}RX{slow}{n}\"At this rate, there ain't gonna be no festival in Neo Asakusa!!\"{key}{end}",
   "notes": ""
  },
  {
@@ -356,7 +356,7 @@
   "hdr": "C192",
   "ptr": "D0BF",
   "jp": "４ほんセットの{n}わたがしはいらんかね{end}",
-  "en": "",
+  "en": "Four to a pack! Who wants cotton candy?{end}",
   "notes": ""
  },
  {
@@ -364,7 +364,7 @@
   "hdr": "C192",
   "ptr": "D0D3",
   "jp": "はいよ、おとさないようにね{end}",
-  "en": "",
+  "en": "Here ya go! Don't drop it, now!{end}",
   "notes": ""
  },
  {
@@ -372,7 +372,7 @@
   "hdr": "C1AA",
   "ptr": "DBC2",
   "jp": "ばっ{wait:10}ばかな！{wait:10}{n}おれさまの　うごきが{wait:0C}{n}よまれるとは　{wait:10}むねん！{key}{end}",
-  "en": "",
+  "en": "Im-{wait:10}impossible!{wait:10} Someone saw through{wait:0C} my moves?{wait:10} Curses!{key}{end}",
   "notes": ""
  },
  {
@@ -380,7 +380,7 @@
   "hdr": "C1AA",
   "ptr": "DBED",
   "jp": "どうだ　{wait:0C}おれさまのうごきには{wait:0C}{n}ついてこれまい！{key}{page}うでをみがいて{wait:0C}{n}でなおしてこい！{key}{end}",
-  "en": "",
+  "en": "How's that?{wait:0C} You can't keep up{wait:0C} with my moves!{key}{page}Go polish your skills{wait:0C} and come back!{key}{end}",
   "notes": ""
  },
  {
@@ -388,7 +388,7 @@
   "hdr": "C1A4",
   "ptr": "DC24",
   "jp": "やっときたか！{wait:0C}{n}コンパチヒーローズ！{key}{page}まちくたびれたぞ！{wait:10}{n}さっそく　しょうぶだ！{key}{end}",
-  "en": "",
+  "en": "So you finally came!{wait:0C} Compati Heroes!{key}{page}I'm sick of waiting!{wait:10} Let's fight right now!{key}{end}",
   "notes": ""
  },
  {
@@ -396,7 +396,7 @@
   "hdr": "C1AA",
   "ptr": "DC59",
   "jp": "いままで　まけしらずの{wait:0C}{n}この　{wait:0C}おれがっ！{key}{page}このままですむとおもうなよ！{wait:14}{n}にっくき{wait:0C}コンパチヒーローズ！{key}{end}",
-  "en": "",
+  "en": "Never beaten till now,{wait:0C} and{wait:0C} me, of all people!{key}{page}Don't think this is over!{wait:14} You hateful{wait:0C} Compati Heroes!{key}{end}",
   "notes": ""
  },
  {
@@ -404,7 +404,7 @@
   "hdr": "C1AA",
   "ptr": "DC9C",
   "jp": "おいおい　{wait:0C}そんなによわくて{wait:10}{n}ヒーローだなんて　{wait:08}ははは！{wait:10}{n}わらわせてくれるぜ！{key}{end}",
-  "en": "",
+  "en": "Hey now,{wait:0C} so weak{wait:10} and you're heroes?{wait:08} Ha ha ha!{wait:10} What a laugh!{key}{end}",
   "notes": ""
  },
  {
@@ -412,7 +412,7 @@
   "hdr": "C19E",
   "ptr": "DCCE",
   "jp": "おっと　きたか！{wait:10}{n}オレさまたちにはむかう{wait:0C}{n}コンパチヒーローズ！{key}{page}めにものをみせてやる！{key}{end}",
-  "en": "",
+  "en": "Well, look who's here!{wait:10} The Compati Heroes{wait:0C} who dare defy us!{key}{page}We'll teach you a lesson!{key}{end}",
   "notes": ""
  },
  {
@@ -420,7 +420,7 @@
   "hdr": "C1AA",
   "ptr": "DD02",
   "jp": "むてきの　おれさまたちが{wait:10}{n}おまえらに　まけるとは！{wait:10}{n}くっ　{wait:10}くやしい！{key}{end}",
-  "en": "",
+  "en": "We're invincible,{wait:10} and we lost to you!?{wait:10} Argh,{wait:10} this stinks!{key}{end}",
   "notes": ""
  },
  {
@@ -428,7 +428,7 @@
   "hdr": "C1AA",
   "ptr": "DD2D",
   "jp": "せっかく　きてもらったが{wait:10}{n}これよりさきはとおさないぞ！{key}{page}そのていどの　ちからでは{wait:0C}{n}いつまでたっても{wait:0C}{n}おれさまは　たおせないぜ！{key}{end}",
-  "en": "",
+  "en": "Thanks for coming all this way,{wait:10} but you shall not pass!{key}{page}With power at that level,{wait:0C} no matter how long you try,{wait:0C} you'll never beat me!{key}{end}",
   "notes": ""
  },
  {
@@ -436,7 +436,7 @@
   "hdr": "C19E",
   "ptr": "DD7B",
   "jp": "ばかな　やつらだ！{wait:10}{n}それほど　メチャクチャに{wait:0C}{n}やっつけてほしいのか？{key}{page}のぞみどおりに　してやる！{key}{end}",
-  "en": "",
+  "en": "What fools!{wait:10} Are you that eager{wait:0C} to get beaten to a pulp?{key}{page}Then I'll grant your wish!{key}{end}",
   "notes": ""
  },
  {
@@ -444,7 +444,7 @@
   "hdr": "C1AA",
   "ptr": "DDB7",
   "jp": "ちくしょう！{wait:14}{n}ひとの　よわみに{wait:0C}{n}つけこみやがって！{key}{page}おぼえていろよ！{key}{end}",
-  "en": "",
+  "en": "Rats!{wait:14} Takin' advantage{wait:0C} of a guy's weak spot!{key}{page}You'll pay for this!{key}{end}",
   "notes": ""
  },
  {
@@ -452,7 +452,7 @@
   "hdr": "C1AA",
   "ptr": "DDE2",
   "jp": "はるばる　きてくれて{wait:10}{n}ありがとう！{key}{page}みやげは　ないが{wait:10}{n}おかえりは　あちらだ！{key}{end}",
-  "en": "",
+  "en": "Thanks for coming{wait:10} all this way!{key}{page}No souvenirs, sorry,{wait:10} but the exit's over there!{key}{end}",
   "notes": ""
  },
  {
@@ -460,7 +460,7 @@
   "hdr": "C19E",
   "ptr": "DE14",
   "jp": "ほほう　{wait:0C}きみたちが{wait:08}{n}コンパチヒーローズか。{key}{page}なかなか　よいツラを{wait:0C}{n}しておるではないか。{key}{page}できることなら{wait:0C}{n}たたかいたくは　ないが{wait:20}{page}これも　さだめというもの{wait:10}{n}いざ　{wait:10}しょうぶ！{key}{end}",
-  "en": "",
+  "en": "Hoho,{wait:0C} so you{wait:08} are the Compati Heroes.{key}{page}Quite fine faces{wait:0C} you have there.{key}{page}If I could,{wait:0C} I'd rather not fight you,{wait:20}{page}but such is fate.{wait:10} Now,{wait:10} have at you!{key}{end}",
   "notes": ""
  },
  {
@@ -468,7 +468,7 @@
   "hdr": "C1AA",
   "ptr": "DE84",
   "jp": "さすが　コンパチヒーローズ！{wait:10}{n}この　わたしをやぶるとは。{key}{page}のこりは　あとひとり{wait:10}{n}さあ　いくがよい！{key}{end}",
-  "en": "",
+  "en": "As expected of the Compati Heroes!{wait:10} To think you'd defeat me.{key}{page}Only one left now.{wait:10} Go on, then!{key}{end}",
   "notes": ""
  },
  {
@@ -476,7 +476,7 @@
   "hdr": "C1AA",
   "ptr": "DEC1",
   "jp": "いかんな！{wait:0C}{n}そんな　たたかいかたでは{key}{page}このさき　かちすすめんぞ！{wait:10}{n}もっと　うでをみがいてこい！{key}{end}",
-  "en": "",
+  "en": "This won't do!{wait:0C} Fighting like that,{key}{page}you won't win your way through!{wait:10} Go polish your skills more!{key}{end}",
   "notes": ""
  },
  {
@@ -484,7 +484,7 @@
   "hdr": "C19E",
   "ptr": "DEFB",
   "jp": "あらまあ！　{wait:10}おげんき？{wait:10}{n}コンパチヒーローズさん？{key}{page}わざわざ　きてくださって{wait:10}{n}ごくろうなことですこと！{key}{page}これは　わたしからの{wait:0C}{n}こころからの{wait:08}{n}プレゼントですわ！{key}{page}どうぞ　うけとりなさいませ！{key}{end}",
-  "en": "",
+  "en": "My, my!{wait:10} How are you,{wait:10} Compati Heroes-san?{key}{page}How very good of you{wait:10} to come all this way!{key}{page}This is a present{wait:0C} from the bottom{wait:08} of my heart!{key}{page}Do accept it, please!{key}{end}",
   "notes": ""
  },
  {
@@ -492,7 +492,7 @@
   "hdr": "C1AA",
   "ptr": "DF74",
   "jp": "わたしが　やられるなんて{wait:10}{n}おもいもしませんでしたわ！{wait:0A}{n}こんなはずはありません！{key}{page}こんどあうときは{wait:0C}{n}ぜったい　まけませんわ！{key}{end}",
-  "en": "",
+  "en": "I never dreamed{wait:10} that I could be beaten!{wait:0A} This can't be happening!{key}{page}Next time we meet,{wait:0C} I absolutely won't lose!{key}{end}",
   "notes": ""
  },
  {
@@ -500,7 +500,7 @@
   "hdr": "C1AA",
   "ptr": "DFBF",
   "jp": "まあっ　てごたえのない{wait:10}{n}ひとたち　ですこと{key}{page}なんどでも　いらっしゃい！{wait:10}{n}いつでも　つきあいますわよ！{key}{end}",
-  "en": "",
+  "en": "Oh my, what a feeble{wait:10} bunch you are.{key}{page}Come back as often as you like!{wait:10} I'll keep you company anytime!{key}{end}",
   "notes": ""
  },
  {
@@ -508,7 +508,7 @@
   "hdr": "C1C8",
   "ptr": "DFFD",
   "jp": "コンパチヒーローズたすけてくれ！{wait:10}{n}かみなりもんのちょうちんが{wait:0C}{n}てきのモビルスーツにせんりょうされてしまった！{key}{page}さらに　おみこしビルのてっぺんに{wait:0C}{n}かいじゅうのたまごが　うみつけられてしまった{wait:10}{n}はやくやつらをたいじして{wait:08}{n}ネオ・アサクサに　へいわをとりもどしてくれ！{key}{page}{n}　　　がんばれ！　コンパチヒーローズ！！{key}{end}",
-  "en": "",
+  "en": "Compati Heroes, help us!{wait:10} The Kaminarimon lantern{wait:0C} has been seized by enemy mobile suits!{key}{page}What's more, kaiju eggs have been laid on top of the Omikoshi Building!{wait:10} Hurry, defeat them{wait:08} and bring peace back to Neo Asakusa!{key}{page}{n}Fight on, Compati Heroes!!{key}{end}",
   "notes": ""
  },
  {
@@ -516,7 +516,7 @@
   "hdr": "C1C8",
   "ptr": "E0B2",
   "jp": "この”ほしぞらまんてんまつり”のどこかに{wait:10}{n}かいじゅうたちに　めいれいをだしているてきが{wait:10}{n}ひそんでいるぞ！{key}{page}そいつをはやくたおして　このかいじょうを{wait:0C}{n}とりかえさないと　やたいのオジさんたちも{wait:0C}{n}だいめいわくだ！！{wait:08}{n}さあ！　”あかるいおまつり”をとりもどせ！！{key}{page}{n}　　いけ！　いけ！　コンパチヒーローズ！！{key}{end}",
-  "en": "",
+  "en": "Somewhere in this \"Starry Sky Festival\"{wait:10} an enemy giving orders to the kaiju{wait:10} is lurking!{key}{page}Defeat him fast and take back the festival grounds,{wait:0C} or the stall keepers{wait:0C} will be in big trouble!!{wait:08} Come on! Bring back a \"bright, cheerful festival\"!!{key}{page}{n} Go! Go! Compati Heroes!!{key}{end}",
   "notes": ""
  },
  {
@@ -524,7 +524,7 @@
   "hdr": "C1C8",
   "ptr": "E164",
   "jp": "しまった！　セト・ブリッジにじゅんびした　はんせんが{wait:10}{n}”きんのりゅう・ナース”にとられてしまった！{wait:10}{n}むてきのかいてんこうげきには　ちかづけないぞ！{key}{page}さらに　はしのむこうにはナゾの{wait:08}{n}”ひしがたのかげ”がとおせんぼしてるのだ！{wait:10}{n}やつらをたおし　むこうがわにわたれるようにしてくれ！{key}{page}{n}　　　たのむぞ！　コンパチヒーローズ！！{key}{end}",
-  "en": "",
+  "en": "Oh no! The sailing ship we readied at Seto Bridge{wait:10} was taken by \"Golden Dragon Nurse\"!{wait:10} We can't get near its invincible spinning attack!{key}{page}What's more, across the bridge, the mysterious{wait:08} \"Diamond-Shaped Shadow\" is blocking the way!{wait:10} Defeat them so we can cross to the other side!{key}{page}{n}  We're counting on you,{n}     Compati Heroes!!{key}{end}",
   "notes": ""
  },
  {
@@ -532,7 +532,7 @@
   "hdr": "C1C8",
   "ptr": "E222",
   "jp": "たいへんだ！　せっかくつくった　こおりのおしろが{wait:10}{n}きょうりょくな　かいじゅうぐんだんに{wait:08}{n}メチャクチャにされてしまいそうだぞ！{key}{page}ぐんだんをあやつっているヒキョーなやつを{wait:0C}{n}たおして　だいじなこおりのおしろをまもってくれ！{key}{page}{n}　　　すすめ！　コンパチヒーローズ！！{key}{end}",
-  "en": "",
+  "en": "Big trouble! The ice castle we worked so hard to build{wait:10} is about to be wrecked{wait:08} by a powerful kaiju army!{key}{page}Defeat the dirty coward{wait:0C} controlling the army and protect our precious ice castle!{key}{page}{n}Forward, Compati Heroes!!{key}{end}",
   "notes": ""
  },
  {
@@ -540,7 +540,7 @@
   "hdr": "C1C2",
   "ptr": "E2BA",
   "jp": "{fast}ゼットン{slow}{wait:10}{n}「おむかえ　ありがとうございます！{n}　フェスティバルたいていさま！！{wait:20}{page}　もういちどチャンスを{n}　あたえてくださいますのね！！」{wait:20}{page}{end}",
-  "en": "",
+  "en": "{fast}Zetton{slow}{wait:10}{n}\"Thank you ever so much for coming to get me, Emperor Festival-sama!!{wait:20}{page}You're giving me one more chance, aren't you!!\"{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -548,7 +548,7 @@
   "hdr": "C1C2",
   "ptr": "E30F",
   "jp": "{fast}ステイメン{slow}{wait:10}{n}「フェスティバルたいていは{wait:0C}{n}　あのふねのなかなのか！」{wait:20}{page}{fast}ＲＸ{slow}{wait:10}{n}「あんなデカイもんで　きやがって・・・」{wait:20}{page}{end}",
-  "en": "",
+  "en": "{fast}Stamen{slow}{wait:10}{n}\"So Emperor Festival{wait:0C} is inside that ship!\"{wait:20}{page}{fast}RX{slow}{wait:10}{n}\"Showin' up in somethin' that huge...\"{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -556,7 +556,7 @@
   "hdr": "C1CE",
   "ptr": "E35C",
   "jp": "{fast}プレイヤー　セレクト{slow}{end}",
-  "en": "",
+  "en": "{fast}Player Select{slow}{end}",
   "notes": ""
  },
  {
@@ -564,7 +564,7 @@
   "hdr": "C1D4",
   "ptr": "E36A",
   "jp": "{fast}まだ　しゅぎょうちゅうのコンパチせんし{n}ひっさつの　ファイヤードラゴンがじまん！{slow}{end}",
-  "en": "",
+  "en": "{fast}A Compati Fighter still in training, proud of his special move: Fire Dragon!{slow}{end}",
   "notes": ""
  },
  {
@@ -572,7 +572,7 @@
   "hdr": "C1D4",
   "ptr": "E39C",
   "jp": "{fast}さいきょうの　カラテつかいをめざしている{n}バーニング・プラズマが　とくいわざ！{slow}{end}",
-  "en": "",
+  "en": "{fast}Aims to be the strongest karate fighter! Specialty: Burning Plasma!{slow}{end}",
   "notes": ""
  },
  {
@@ -580,7 +580,7 @@
   "hdr": "C1D4",
   "ptr": "E3CD",
   "jp": "{fast}いまは　はなびについてのべんきょうちゅう{n}あしのはやさは　ナンバー１！{slow}{end}",
-  "en": "",
+  "en": "{fast}Studying fireworks for now. Number 1 in running speed!{slow}{end}",
   "notes": ""
  },
  {
@@ -588,7 +588,7 @@
   "hdr": "C1D4",
   "ptr": "E3F6",
   "jp": "{fast}いつでもげんきな　えどっこヒーロー！{n}ジャンプりょくのつよさは　うまれつき！{slow}{end}",
-  "en": "",
+  "en": "{fast}An Edokko hero, always full of pep! His jumping power is inborn!{slow}{end}",
   "notes": ""
  },
  {
@@ -596,7 +596,7 @@
   "hdr": "C1C2",
   "ptr": "E424",
   "jp": "{fast}グレート{slow}{wait:10}{n}「ようし！{wait:08}{n}　あのフェスティバルのせんかんに{wait:20}{page}　ぜんいんで　こうげきかいしだ！」{wait:20}{page}{end}",
-  "en": "",
+  "en": "{fast}Great{slow}{wait:10}{n}\"All right!{wait:08} That festival battleship...{wait:20}{page}Everyone, start the attack!\"{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -604,7 +604,7 @@
   "hdr": "C1D4",
   "ptr": "E463",
   "jp": "だれが　フェスティバルたいていのせんかんに{n}のりこみますか？{wait:20}{page}{end}",
-  "en": "",
+  "en": "Who will board Emperor Festival's battleship?{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -612,7 +612,7 @@
   "hdr": "C1C2",
   "ptr": "E488",
   "jp": "{fast}ロア{slow}{n}「ひどいことをする！！{wait:10}{page}　すぐに　たすけにいこう{n}　まだ　まにあうはずだ！！」{key}{end}",
-  "en": "",
+  "en": "{fast}Roar{slow}{n}\"What a terrible thing to do!!{wait:10}{page}Let's go help them right away. We can still make it in time!!\"{key}{end}",
   "notes": ""
  },
  {
@@ -620,7 +620,7 @@
   "hdr": "C1C2",
   "ptr": "E4BD",
   "jp": "{fast}ステイメン{slow}{n}「ようし！{wait:10}{page}　コンパチヒーローズのほこりにかけて{n}　フェスティバルたいていの　まのてから{n}　おまつりをまもってみせるぞ！！」{key}{end}",
-  "en": "",
+  "en": "{fast}Stamen{slow}{n}\"All right!{wait:10}{page}On the pride of the Compati Heroes, we'll protect the festival from Emperor Festival's evil clutches!!\"{key}{end}",
   "notes": ""
  },
  {
@@ -628,7 +628,7 @@
   "hdr": "C1DA",
   "ptr": "E50B",
   "jp": "ハーイ！　わたしは　あんないやくのエミィです{wait:10}{n}さっそく　このゲームのあそびかたについて{wait:10}{n}せつめいするからね{key}{page}{end}",
-  "en": "",
+  "en": "Hi there! I'm Emmy, your guide!{wait:10} First off, let me explain{wait:10} how to play this game!{key}{page}{end}",
   "notes": ""
  },
  {
@@ -636,7 +636,7 @@
   "hdr": "C198",
   "ptr": "E54A",
   "jp": "ひよこひろいに　ようこそ{wait:10}{n}じかんないにおちてくる{n}いろいろな　ひよこを{n}ひろいまくってね！{wait:08}{wait:10}{page}た{wait:03}だ{wait:03}し{wait:03}、{wait:03}くろひよこはだめよ！{wait:08}{wait:10}{n}{n}　それじゃ　がんばってね{wait:03}{end}",
-  "en": "",
+  "en": "Welcome to Chick Catch!{wait:10} Before time runs out, catch all the different chicks that fall!{wait:08}{wait:10}{page}Just{wait:03} one{wait:03} thing{wait:03}:{wait:03} no black chicks!{wait:08}{wait:10}{n}{n}Well then, good luck!{wait:03}{end}",
   "notes": ""
  },
  {
@@ -644,7 +644,7 @@
   "hdr": "C1C2",
   "ptr": "E5AF",
   "jp": "{fast}ロア{slow}{wait:10}{n}「まって！{wait:10}{n}　ここでたたかっては{wait:08}{page}　”コンパチワールドまつり”は{wait:10}{n}　メチャクチャになってしまいます{wait:20}{page}{end}",
-  "en": "",
+  "en": "{fast}Roar{slow}{wait:10}{n}\"Wait!{wait:10} If we fight here,{wait:08}{page}the 'Compati World Festival'{wait:10} will be ruined!{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -652,7 +652,7 @@
   "hdr": "C1C2",
   "ptr": "E5F4",
   "jp": "「それじゃ　コンパチヒーローズ！{wait:10}{n}　ちょっとのあいだ　おわかれよ！！」{wait:20}{page}{end}",
-  "en": "",
+  "en": "\"Well then, Compati Heroes!{wait:10} It's goodbye for a little while!!\"{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -660,7 +660,7 @@
   "hdr": "C1C2",
   "ptr": "E621",
   "jp": "　きけんなかけですが{wait:08}{n}　だれかひとりで　せんかんにのりこみ{wait:10}{n}　はなしあいで　かいけつしましょう{wait:20}{page}{end}",
-  "en": "",
+  "en": "It's a risky gamble,{wait:08} but one of us should board the battleship alone{wait:10} and settle this by talking.{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -668,7 +668,7 @@
   "hdr": "C1C2",
   "ptr": "E65D",
   "jp": "　われわれのやくめは{wait:08}{n}　”まつりのへいわをまもる”こと！{wait:20}{page}　たたかいだけが{wait:08}{n}　もくてきではないはずです！！」{wait:20}{page}{end}",
-  "en": "",
+  "en": "Our duty{wait:08} is to 'protect the festival's peace'!{wait:20}{page}Fighting{wait:08} shouldn't be our only goal!!\"{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -676,7 +676,7 @@
   "hdr": "C1C2",
   "ptr": "E6A2",
   "jp": "{fast}ぜんいん{slow}{wait:10}{n}「ようし！　そうしよう！！」{wait:20}{end}",
-  "en": "",
+  "en": "{fast}Everyone{slow}{wait:10}{n}\"All right! Let's do it!!\"{wait:20}{end}",
   "notes": ""
  },
  {
@@ -684,7 +684,7 @@
   "hdr": "C1C2",
   "ptr": "E6BD",
   "jp": "{fast}ステイメン{slow}{wait:10}{n}「しっかり　たのんだぞ！{wait:10}{n}　おれたちのぶんまで　がんばるんだ！」{wait:20}{page}{end}",
-  "en": "",
+  "en": "{fast}Stamen{slow}{wait:10}{n}\"We're counting on you!{wait:10} Do your best for the rest of us too!\"{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -692,7 +692,7 @@
   "hdr": "C1C2",
   "ptr": "E6F4",
   "jp": "{fast}ＲＸ{slow}{wait:10}{n}「おまえはむかしからいいやつだったなぁ！{wait:10}{n}　ライダーのなかまにしてやるぞ！」{wait:20}{page}{end}",
-  "en": "",
+  "en": "{fast}RX{slow}{wait:10}{n}\"You always were a good egg, ya know!{wait:10} I'll make ya one of us Riders!\"{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -700,7 +700,7 @@
   "hdr": "C1C2",
   "ptr": "E72A",
   "jp": "{fast}グレート{slow}{wait:10}{n}「さすがはヒーロー！われらのなかまだ！{wait:10}{n}　くれぐれも　ちゅういをおこたるなよ！」{wait:20}{page}{end}",
-  "en": "",
+  "en": "{fast}Great{slow}{wait:10}{n}\"That's a hero for ya! You're one of us!{wait:10} Don't you dare let your guard down!\"{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -708,7 +708,7 @@
   "hdr": "C1C2",
   "ptr": "E765",
   "jp": "{fast}ロア{slow}{wait:10}{n}「きをつけて！{wait:08}{n}　かならず　かえってきてくださいね」{wait:20}{page}{end}",
-  "en": "",
+  "en": "{fast}Roar{slow}{wait:10}{n}\"Be careful!{wait:08} Please make sure you come back!\"{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -716,7 +716,7 @@
   "hdr": "C1C2",
   "ptr": "E78E",
   "jp": "{fast}フェスティバルたいてい{slow}{wait:10}{n}「よくきたな　コンパチヒーロー！{wait:20}{page}　たったひとりでくるとは{wait:10}{n}　きあいだけは　みとめてやるぞ！{wait:20}{page}{end}",
-  "en": "",
+  "en": "{fast}Emperor Festival{slow}{wait:10}{n}\"Welcome, Compati Hero!{wait:20}{page}Coming here all alone...{wait:10} I'll grant you've got guts, at least!{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -724,7 +724,7 @@
   "hdr": "C1C2",
   "ptr": "E7D9",
   "jp": "　まあ　ゆっくりしていってくれ！{wait:10}{n}　ここは　とてもいいばしょじゃ{wait:20}{page}{end}",
-  "en": "",
+  "en": "Now, make yourself at home!{wait:10} This is a very nice place.{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -732,7 +732,7 @@
   "hdr": "C1C2",
   "ptr": "E801",
   "jp": "　おきゃくが２どと　かえらなくなるほど{wait:10}{n}　いごこちのいいところじゃからな！{wait:10}{n}　わっはははははは！」{wait:20}{end}",
-  "en": "",
+  "en": "Guests find it so cozy{wait:10} they never go home again!{wait:10} Wahahahahaha!\"{wait:20}{end}",
   "notes": ""
  },
  {
@@ -740,7 +740,7 @@
   "hdr": "C1DA",
   "ptr": "E83E",
   "jp": "かいじゅうぐんだんを　たおしていくと{wait:10}{n}”そらとぶゲームやさん”がとんでくるの{key}{page}{end}",
-  "en": "",
+  "en": "As you defeat the kaiju army,{wait:10} the \"Flying Game Shop\" comes flying in!{key}{page}{end}",
   "notes": ""
  },
  {
@@ -748,7 +748,7 @@
   "hdr": "C1DA",
   "ptr": "E870",
   "jp": "ボスてきをたおすには　テクニックがひつようよね？{wait:10}{n}だから　この”ゲームやさん”でテクニックを{wait:10}{n}みがいて　ボスとのたたかいにそなえましょう！{key}{page}{end}",
-  "en": "",
+  "en": "You need technique to beat the bosses, right?{wait:10} So polish your technique at this \"Game Shop\"{wait:10} and get ready for the boss fights!{key}{page}{end}",
   "notes": ""
  },
  {
@@ -756,7 +756,7 @@
   "hdr": "C1DA",
   "ptr": "E8C3",
   "jp": "それに”そらとぶゲームやさん”をクリアしないと{wait:10}{n}エリアをしはいするボスには　あえません！{key}{page}{end}",
-  "en": "",
+  "en": "Plus, unless you clear the \"Flying Game Shop\",{wait:10} you can't meet the boss who rules the area!{key}{page}{end}",
   "notes": ""
  },
  {
@@ -764,7 +764,7 @@
   "hdr": "C1DA",
   "ptr": "EF12",
   "jp": "だけど　３かいゲームをクリアできたときは{wait:10}{n}”おたすけスイッチ”で　おうえんしちゃうからね！{key}{page}{end}",
-  "en": "",
+  "en": "But when you clear the game 3 times,{wait:10} I'll cheer you on with the \"Help Switch\"!{key}{page}{end}",
   "notes": ""
  },
  {
@@ -772,7 +772,7 @@
   "hdr": "C1DA",
   "ptr": "E8F7",
   "jp": "それじゃ　コンパチヒーローズのみなさん！{wait:10}{n}がんばってね！！{key}{end}",
-  "en": "",
+  "en": "Okay, all you Compati Heroes!{wait:10} Good luck!!{key}{end}",
   "notes": ""
  },
  {
@@ -780,7 +780,7 @@
   "hdr": "C1A4",
   "ptr": "E91D",
   "jp": "ようやく　ここまできたか！{n}たのもしいやつよォ！{key}{page}なに？　はなしあいじゃと！？{n}わらわせるな{key}{end}",
-  "en": "",
+  "en": "So, you've finally made it this far! A promising one, eh!{key}{page}What? Talk it over, you say?! Don't make me laugh!{key}{end}",
   "notes": ""
  },
  {
@@ -788,7 +788,7 @@
   "hdr": "C1A4",
   "ptr": "E950",
   "jp": "”まつりのあらし”が{n}はなしあいでしずまると{n}おもっているのか！！{key}{page}さあ！{n}おもいきって　かかってこい！{key}{end}",
-  "en": "",
+  "en": "You think the \"Festival Storm\" can be calmed with talk?!!{key}{page}Come on! Give it everything you've got!{key}{end}",
   "notes": ""
  },
  {
@@ -796,7 +796,7 @@
   "hdr": "C1B6",
   "ptr": "E98A",
   "jp": "ふっふっふっふっふっ・・・　かんじる！{n}かんじるぞ！　このおまつりエネルギー！{n}スペシャルな　かんかく！！{wait:20}{page}{end}",
-  "en": "",
+  "en": "Heh heh heh heh heh... I feel it! I feel it! This festival energy! A special sensation!!{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -804,7 +804,7 @@
   "hdr": "C1B6",
   "ptr": "E9C8",
   "jp": "このひろいうちゅうの　どんなおまつりよりも{n}つよい　エネルギーをかんじるゾ！！{wait:20}{page}{end}",
-  "en": "",
+  "en": "I sense an energy stronger than any festival in this vast universe!!{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -812,7 +812,7 @@
   "hdr": "C1B6",
   "ptr": "E9F7",
   "jp": "このほしならば　わたしがながねんにわたって{n}さがしもとめていたものが{n}かならずみつかるに　ちがいあるまい！！{wait:20}{page}{end}",
-  "en": "",
+  "en": "On this planet, I am certain to find what I have sought for so many long years!!{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -820,7 +820,7 @@
   "hdr": "C1BC",
   "ptr": "EA38",
   "jp": "{n}　　　　　ワッハッハッハッハッ！！{wait:20}{page}{end}",
-  "en": "",
+  "en": "{n}  Wahahahahaha!!{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -828,7 +828,7 @@
   "hdr": "C1B6",
   "ptr": "EA4E",
   "jp": "なるほど　あそこにみえるのは　このあたりでは{n}とくにしられている　コンパチワールドですわね{wait:20}{page}{end}",
-  "en": "",
+  "en": "Oh my, I see. That over there must be Compati World, so famous in these parts.{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -836,7 +836,7 @@
   "hdr": "C1B6",
   "ptr": "EA84",
   "jp": "ひろいうちゅうに　そのなもたかき{n}”コンパチヒーローズ”　というものが{n}せいぎをまもりつづけているはずですわ{wait:20}{page}{end}",
-  "en": "",
+  "en": "Renowned throughout the vast universe, the \"Compati Heroes\" should still be out there defending justice, I believe.{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -844,7 +844,7 @@
   "hdr": "C1B6",
   "ptr": "EAC5",
   "jp": "　　　ふふ{wait:18}　イッツ・スイート！！{n}　　　あまいな！{wait:20}{page}{end}",
-  "en": "",
+  "en": " Heh heh...{wait:18} It's sweet!!{n} Sweet and naive!{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -852,7 +852,7 @@
   "hdr": "C1B6",
   "ptr": "EAE4",
   "jp": "わたしがこれまでに　なんどとなくたたかってきた{n}せいぎのヒーローとよばれていたものたちが{n}いかほどのものであったか！！{wait:20}{page}{end}",
-  "en": "",
+  "en": "The so-called heroes of justice I have fought time and again... what were they ever worth!!{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -860,7 +860,7 @@
   "hdr": "C1B6",
   "ptr": "EB2B",
   "jp": "あやつらは　へいわのつづくなかで　たたかいを{n}わすれてしまっておったわ！！{wait:20}{page}{end}",
-  "en": "",
+  "en": "Those fools had forgotten how to fight amid their long years of peace!!{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -868,7 +868,7 @@
   "hdr": "C1B6",
   "ptr": "EB56",
   "jp": "　　　しかし　こんかいは・・・{wait:20}{page}{end}",
-  "en": "",
+  "en": "   But this time...{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -876,7 +876,7 @@
   "hdr": "C1B6",
   "ptr": "EB69",
   "jp": "うむ　コンパチヒーローズが　あいてじゃ{wait:20}{n}じゃが　あんずるでない　たいくつしていたところだ{n}おあそびのあいてとしては　てごろなあいてじゃ{wait:20}{page}{end}",
-  "en": "",
+  "en": "Mm, the Compati Heroes are our foes this time.{wait:20} But fear not. I was getting bored. As playmates, they will do nicely.{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -884,7 +884,7 @@
   "hdr": "C1B6",
   "ptr": "EBBE",
   "jp": "　　　このわたしと　おなじくらい・・・{n}　　　いや　それいじょうの{n}　　　ちからをもつものがおれば・・・・・{wait:20}{page}{end}",
-  "en": "",
+  "en": "  If only there were one{n}  as strong as I am...{n}  no, even stronger.....{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -892,7 +892,7 @@
   "hdr": "C1B6",
   "ptr": "EBFC",
   "jp": "{n}{fast}　　　　　　　　　　{slow}は？{wait:20}{page}{end}",
-  "en": "",
+  "en": "{n}          {fast}{slow}Huh?{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -900,7 +900,7 @@
   "hdr": "C1B6",
   "ptr": "EC0F",
   "jp": "　　ふふ　きにするな　ただのひとりごとじゃ{n}　　もうよい　さがれ{wait:20}{page}{end}",
-  "en": "",
+  "en": " Heh heh, never mind.{n} Just talking to myself.{n} Enough. You may go.{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -908,7 +908,7 @@
   "hdr": "C1B6",
   "ptr": "EC37",
   "jp": "{n}{fast}　　　　　　　　　{slow}ははっ！{wait:20}{page}{end}",
-  "en": "",
+  "en": "{n}         {fast}{slow}Yes, sire!{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -916,7 +916,7 @@
   "hdr": "C1E0",
   "ptr": "EC81",
   "jp": "　うーむ！　このわしが、やぶれるとは、、、、、。{n}さすがは　コンパチヒーローズのメンバーだ！{n}　わしは、ぜんうちゅうのおまつりのしはいしゃになる{n}ことが、ながねんのゆめじゃった。{key}{page}{end}",
-  "en": "",
+  "en": "Urgh! To think I, of all people, would be defeated..... You truly are a member of the Compati Heroes! To become the ruler of every festival in the universe has long been my dream.{key}{page}{end}",
   "notes": ""
  },
  {
@@ -924,7 +924,7 @@
   "hdr": "C1E0",
   "ptr": "ECE8",
   "jp": "　いままでに、９９のほしのおまつりをこのてにおさめ、{n}そして、ここ、うちゅうで１ばんのおまつり、コンパチ{n}ワールドまつりを、わがものにすれば、そのゆめがげん{n}じつとなるはずじゃった。{key}{page}{end}",
-  "en": "",
+  "en": "Until now, I had taken the festivals of 99 planets into my hands. And once I made the greatest festival in the universe, the Compati World Festival, my own, that dream was to come true.{key}{page}{end}",
   "notes": ""
  },
  {
@@ -932,7 +932,7 @@
   "hdr": "C1E0",
   "ptr": "ED52",
   "jp": "　しかし、きみのせいぎのパンチにうたれ、このわしも{n}めがさめたおもいじゃ。{n}　いままでに、このてにおさめたおまつりも、きみのて{n}に、ゆだねよう。{key}{page}{end}",
-  "en": "",
+  "en": "But struck by your punch of justice, even I feel as if I have woken up. The festivals I have taken so far, I now entrust to your hands.{key}{page}{end}",
   "notes": ""
  },
  {
@@ -940,7 +940,7 @@
   "hdr": "C1E0",
   "ptr": "EDA3",
   "jp": "　そうじゃ、きみは、ぜんうちゅうおまつりれんごうの{n}かいちょうとなって、これからのおまつりのはってんの{n}ために、ちからをつくしてほしいのじゃ。{n}　きみならばできる！！{key}{page}{end}",
-  "en": "",
+  "en": "Yes, that's it! You must become chairman of the All-Universe Festival Federation and give your all for the future of festivals. You can do it!!{key}{page}{end}",
   "notes": ""
  },
  {
@@ -948,7 +948,7 @@
   "hdr": "C1E0",
   "ptr": "EDA3",
   "jp": "　そうじゃ、きみは、ぜんうちゅうおまつりれんごうの{n}かいちょうとなって、これからのおまつりのはってんの{n}ために、ちからをつくしてほしいのじゃ。{n}　きみならばできる！！{key}{page}{end}",
-  "en": "",
+  "en": "Yes, that's it! You must become chairman of the All-Universe Festival Federation and give your all for the future of festivals. You can do it!!{key}{page}{end}",
   "notes": "",
   "same_as": "075"
  },
@@ -957,7 +957,7 @@
   "hdr": "C1E0",
   "ptr": "EDFF",
   "jp": "　わしは、いままでのつみほろぼしに、うらかたとして、{n}かげでおまつりを、もりあげていくつもりじゃ。{n}　それでは、あとはたのんだぞ。{n}{fast}　　　　　　　　　{slow}さらばじゃ！！{key}{page}{end}",
-  "en": "",
+  "en": "To atone for my past sins, I intend to work as a stagehand, livening up festivals from the shadows. Well then, I leave the rest to you.{n}         {fast}{slow}Farewell!!{key}{page}{end}",
   "notes": ""
  },
  {
@@ -965,7 +965,7 @@
   "hdr": "C1E0",
   "ptr": "EE61",
   "jp": "　このおれが、ぜんうちゅうのおまつりれんごうのかい{n}ちょうか。ようし、へいわがもどったおいわいとして、{n}だい１かいうちゅうフェスティバルをかいさいしよう。{wait:B4}{page}{end}",
-  "en": "",
+  "en": "Me? Chairman of the All-Universe Festival Federation? All right! To celebrate the return of peace, let's hold the First Space Festival!{wait:B4}{page}{end}",
   "notes": ""
  },
  {
@@ -973,7 +973,7 @@
   "hdr": "C1E0",
   "ptr": "EEB9",
   "jp": "　いっぽう、フェスティバルたいていは、つみほろぼし{n}のために、おまつりのかいじょうでひとびとのために、{n}やすくておいしいたこやきを、やきつづけるのであった。{wait:B4}{end}",
-  "en": "",
+  "en": "Meanwhile, to atone for his sins, Emperor Festival kept on grilling cheap, tasty takoyaki for the people at festival grounds.{wait:B4}{end}",
   "notes": ""
  },
  {
@@ -981,7 +981,7 @@
   "hdr": "C1B0",
   "ptr": "D429",
   "jp": "ステージをえらんでくれ！{end}",
-  "en": "",
+  "en": "Pick a stage!{end}",
   "notes": "",
   "same_as": "000"
  },
@@ -990,7 +990,7 @@
   "hdr": "C192",
   "ptr": "D0E1",
   "jp": "にいちゃん、もうもてないよ{end}",
-  "en": "",
+  "en": "Sorry, buddy, you can't carry any more!{end}",
   "notes": ""
  },
  {
@@ -998,7 +998,7 @@
   "hdr": "C192",
   "ptr": "D0EF",
   "jp": "おかねがたんないよ。{end}",
-  "en": "",
+  "en": "You don't have enough money.{end}",
   "notes": ""
  },
  {
@@ -1006,7 +1006,7 @@
   "hdr": "C192",
   "ptr": "D0FB",
   "jp": "またきてくれよな。{end}",
-  "en": "",
+  "en": "Come back again, y'hear?{end}",
   "notes": ""
  },
  {
@@ -1014,7 +1014,7 @@
   "hdr": "C192",
   "ptr": "D105",
   "jp": "あまくて、ちょっときけんな{n}わたがしはいかが？{end}",
-  "en": "",
+  "en": "Sweet and a little risky cotton candy, anyone?{end}",
   "notes": ""
  },
  {
@@ -1022,7 +1022,7 @@
   "hdr": "C192",
   "ptr": "D11F",
   "jp": "はい、とりあつかいには{n}ちゅういしてね。{end}",
-  "en": "",
+  "en": "Here you go! Handle it with care.{end}",
   "notes": ""
  },
  {
@@ -1030,7 +1030,7 @@
   "hdr": "C192",
   "ptr": "D134",
   "jp": "よくばりね、{n}そんなにもてないわよ。{end}",
-  "en": "",
+  "en": "Greedy, huh? You can't carry that many!{end}",
   "notes": ""
  },
  {
@@ -1038,7 +1038,7 @@
   "hdr": "C192",
   "ptr": "D148",
   "jp": "やだ、おかねがたりないわよ{end}",
-  "en": "",
+  "en": "Oh dear, you don't have enough money!{end}",
   "notes": ""
  },
  {
@@ -1046,7 +1046,7 @@
   "hdr": "C192",
   "ptr": "D158",
   "jp": "バイバイ、またね。{end}",
-  "en": "",
+  "en": "Bye-bye! See you!{end}",
   "notes": ""
  },
  {
@@ -1054,7 +1054,7 @@
   "hdr": "C192",
   "ptr": "D164",
   "jp": "とうもろこしだよ、やすいよ{end}",
-  "en": "",
+  "en": "Corn here! Real cheap!{end}",
   "notes": ""
  },
  {
@@ -1062,7 +1062,7 @@
   "hdr": "C192",
   "ptr": "D173",
   "jp": "はいよ、つかうときは、{n}アイテムボタンをおすんだよ{end}",
-  "en": "",
+  "en": "Here ya go! To use it, press the Item button!{end}",
   "notes": ""
  },
  {
@@ -1070,7 +1070,7 @@
   "hdr": "C192",
   "ptr": "D18F",
   "jp": "ひとりで８ぽんいじょうは{n}もてないよ。{end}",
-  "en": "",
+  "en": "You can't carry 8 or more by yourself!{end}",
   "notes": ""
  },
  {
@@ -1078,7 +1078,7 @@
   "hdr": "C192",
   "ptr": "D1A6",
   "jp": "おかねをためてまたおいで。{end}",
-  "en": "",
+  "en": "Save up some money and come back!{end}",
   "notes": ""
  },
  {
@@ -1086,7 +1086,7 @@
   "hdr": "C192",
   "ptr": "D1B5",
   "jp": "さんちちょくそうの{n}とうもろこしはいかが。{end}",
-  "en": "",
+  "en": "Farm-fresh corn, anyone?{end}",
   "notes": ""
  },
  {
@@ -1094,7 +1094,7 @@
   "hdr": "C192",
   "ptr": "D1CC",
   "jp": "はい、ありがとうございます{end}",
-  "en": "",
+  "en": "Here you go, thank you very much!{end}",
   "notes": ""
  },
  {
@@ -1102,7 +1102,7 @@
   "hdr": "C192",
   "ptr": "D1DD",
   "jp": "いまもっているのが{n}なくなったらまたきてね。{end}",
-  "en": "",
+  "en": "Come again once you've used up what you have!{end}",
   "notes": ""
  },
  {
@@ -1110,7 +1110,7 @@
   "hdr": "C192",
   "ptr": "D1F5",
   "jp": "おかねがたりないわよ。{end}",
-  "en": "",
+  "en": "You don't have enough money!{end}",
   "notes": ""
  },
  {
@@ -1118,7 +1118,7 @@
   "hdr": "C192",
   "ptr": "D202",
   "jp": "ヒーローのおめんはいかが。{end}",
-  "en": "",
+  "en": "How about a hero mask?{end}",
   "notes": ""
  },
  {
@@ -1126,7 +1126,7 @@
   "hdr": "C192",
   "ptr": "D211",
   "jp": "これで、あなたもヒーロー{n}になったきぶん。{end}",
-  "en": "",
+  "en": "With this, you'll feel like a hero too!{end}",
   "notes": ""
  },
  {
@@ -1134,7 +1134,7 @@
   "hdr": "C192",
   "ptr": "D229",
   "jp": "ほんにんには、{n}ひつようないよ。{end}",
-  "en": "",
+  "en": "The real hero doesn't need one!{end}",
   "notes": ""
  },
  {
@@ -1142,7 +1142,7 @@
   "hdr": "C192",
   "ptr": "D23A",
   "jp": "これじゃかえないよ{end}",
-  "en": "",
+  "en": "You can't buy it with this.{end}",
   "notes": ""
  },
  {
@@ -1150,7 +1150,7 @@
   "hdr": "C192",
   "ptr": "D245",
   "jp": "つよくて、カッコイイ{n}ヒーローのおめんですよ。{end}",
-  "en": "",
+  "en": "Strong, cool hero masks here!{end}",
   "notes": ""
  },
  {
@@ -1158,7 +1158,7 @@
   "hdr": "C192",
   "ptr": "D25E",
   "jp": "よくおにあいですよ。{end}",
-  "en": "",
+  "en": "It suits you very well.{end}",
   "notes": ""
  },
  {
@@ -1166,7 +1166,7 @@
   "hdr": "C192",
   "ptr": "D26A",
   "jp": "ごほんにんさまは、{n}おかいになれません。{end}",
-  "en": "",
+  "en": "Sorry, the hero himself may not buy one.{end}",
   "notes": ""
  },
  {
@@ -1174,7 +1174,7 @@
   "hdr": "C192",
   "ptr": "D280",
   "jp": "おかねがたりません。{end}",
-  "en": "",
+  "en": "I'm afraid you're short on money.{end}",
   "notes": ""
  },
  {
@@ -1182,7 +1182,7 @@
   "hdr": "C192",
   "ptr": "D28C",
   "jp": "また、いつでもどうぞ。{end}",
-  "en": "",
+  "en": "Please come again anytime.{end}",
   "notes": ""
  },
  {
@@ -1190,7 +1190,7 @@
   "hdr": "C192",
   "ptr": "D29B",
   "jp": "さあどれにする。{end}",
-  "en": "",
+  "en": "So, which one'll it be?{end}",
   "notes": ""
  },
  {
@@ -1198,7 +1198,7 @@
   "hdr": "C192",
   "ptr": "D2A5",
   "jp": "まいどありー{end}",
-  "en": "",
+  "en": "Thanks a bunch!{end}",
   "notes": ""
  },
  {
@@ -1206,7 +1206,7 @@
   "hdr": "C192",
   "ptr": "D2AD",
   "jp": "おかねがたりませんね{end}",
-  "en": "",
+  "en": "You seem to be short on money.{end}",
   "notes": ""
  },
  {
@@ -1214,7 +1214,7 @@
   "hdr": "C192",
   "ptr": "D2B9",
   "jp": "いらっしゃい、{n}なにになさいます{end}",
-  "en": "",
+  "en": "Welcome! What would you like?{end}",
   "notes": ""
  },
  {
@@ -1222,7 +1222,7 @@
   "hdr": "C192",
   "ptr": "D2CA",
   "jp": "ありがとうございます。{end}",
-  "en": "",
+  "en": "Thank you very much.{end}",
   "notes": ""
  },
  {
@@ -1230,7 +1230,7 @@
   "hdr": "C192",
   "ptr": "D2D9",
   "jp": "すでに、おもちですよ。{end}",
-  "en": "",
+  "en": "You already have one.{end}",
   "notes": ""
  },
  {
@@ -1238,7 +1238,7 @@
   "hdr": "C192",
   "ptr": "D2E7",
   "jp": "おかねが、{n}たりないようですが。{end}",
-  "en": "",
+  "en": "It seems you're a little short on money.{end}",
   "notes": ""
  },
  {
@@ -1246,7 +1246,7 @@
   "hdr": "C192",
   "ptr": "D2FB",
   "jp": "かみなりもんのなかと、{n}おみこしビルのうえに、{key}{page}へんなものがいついちまった{n}よもすえだねぇ{key}{page}ところで、{n}たこやきはいかが？{end}",
-  "en": "",
+  "en": "Something weird has moved into Kaminarimon{key}{page}and atop the Omikoshi Building.{key}{page}What's the world coming to?{key}{page}By the way, care for some takoyaki?{end}",
   "notes": ""
  },
  {
@@ -1254,7 +1254,7 @@
   "hdr": "C192",
   "ptr": "D340",
   "jp": "このさきのかみなりもんと、{n}おみこしビルが、{key}{page}たちいりきんしだってさ、{n}なにがあったんだろう。{key}{page}ところで、おきゃくさん{n}とうもろこしはいかが{end}",
-  "en": "",
+  "en": "Kaminarimon up ahead and the Omikoshi Building{key}{page}are off-limits now, they say.{key}{page}I wonder what happened.{key}{page}By the way, mister, care for some corn?{end}",
   "notes": ""
  },
  {
@@ -1262,7 +1262,7 @@
   "hdr": "C192",
   "ptr": "D390",
   "jp": "このさきのかみなりもんにゃ{n}おそろしいものがいる。{key}{page}けど、このおめんをつければ{n}ゆうきひゃくばい。{end}",
-  "en": "",
+  "en": "Kaminarimon up ahead has something scary in it.{key}{page}But with this mask on, you'll be 100 times braver!{end}",
   "notes": ""
  },
  {
@@ -1270,7 +1270,7 @@
   "hdr": "C192",
   "ptr": "D3C7",
   "jp": "したのとうもろこしやと、{n}かけもちは、つかれるぜ。{key}{page}ところで、{n}わたがしはいかが？{end}",
-  "en": "",
+  "en": "Minding this stall and the corn stall below{key}{page}at the same time wears me out!{key}{page}By the way, cotton candy?{end}",
   "notes": ""
  },
  {
@@ -1278,7 +1278,7 @@
   "hdr": "C192",
   "ptr": "D3F6",
   "jp": "さあもうすこしよ、{n}がんばって！{key}{page}なにになさいます。{end}",
-  "en": "",
+  "en": "Just a little further, hang in there!{key}{page}What would you like?{end}",
   "notes": ""
  },
  {
@@ -1286,7 +1286,7 @@
   "hdr": "C192",
   "ptr": "D414",
   "jp": "はらこわすぜ！{end}",
-  "en": "",
+  "en": "You'll get a bellyache!{end}",
   "notes": ""
  },
  {
@@ -1294,7 +1294,7 @@
   "hdr": "C192",
   "ptr": "D41D",
   "jp": "まだひえてないのよ。{end}",
-  "en": "",
+  "en": "It's not chilled yet.{end}",
   "notes": ""
  },
  {
@@ -1302,7 +1302,7 @@
   "hdr": "C1E6",
   "ptr": "C378",
   "jp": "{fast}　　　　　　　ＯＶＥＲＴＵＲＥ{n}　サウンドテストをみつけてしまいましたね？{n}　むてきコマンドでも　さがしてたんでしょ？{n}　ざんねんでした　ついてないんだヨ～〜ン{slow}{end}",
-  "en": "",
+  "en": "       {fast}OVERTURE{n}So, you found the sound test, huh? Looking for an invincibility code, I bet? Too bad, there isn't one! Nyah nyah!{slow}{end}",
   "notes": ""
  },
  {
@@ -1310,7 +1310,7 @@
   "hdr": "C1E6",
   "ptr": "C3D3",
   "jp": "{fast}　　　　　　　Ｒｅａｌｌｙ　？{n}　ＢＧＭがはじまるまで３０びょうあります{n}　こうかおんのあいだに　つぎのＢＧＭにきり{n}　かえちゃいけません　　　　たんきはそんき{slow}{end}",
-  "en": "",
+  "en": "       {fast}Really ?{n}There are 30 seconds before the BGM starts. Don't switch to the next BGM during the sound effects.{n}        Patience pays!{slow}{end}",
   "notes": ""
  },
  {
@@ -1318,7 +1318,7 @@
   "hdr": "C1E6",
   "ptr": "C42C",
   "jp": "{fast}　Ｉ　ＨＯＰＥ　Ａ　ＢＵＭＰＥＲ　ＣＲＯＰ{n}　きょねん（’９３）のナツはさむかったねぇ{n}　エルニーニョなんてダンサブルななまえして{n}　すごいやつです　　　　　　ほうさくきがん{slow}{end}",
-  "en": "",
+  "en": " {fast}I HOPE A BUMPER CROP{n}Last summer ('93) sure was cold, huh. El Nino: such a danceable name for such a monster.{n}  Bumper crop, please!{slow}{end}",
   "notes": ""
  },
  {
@@ -1326,7 +1326,7 @@
   "hdr": "C1E6",
   "ptr": "C48B",
   "jp": "{fast}　　　Ｈｅ　Ｃｌｏｓｅｄ　Ｏｎ　Ｙｏｕ{n}　こんなシゴトしてると　さいごはシメキリと{n}　たたかいになります　シメキリはきがつくと{n}　すぐそこに・・・　もう　ないちゃおうかな{slow}{end}",
-  "en": "",
+  "en": "   {fast}He Closed On You{n}In a job like this, it always ends in a battle with the deadline. Before you know it, the deadline is right there... Maybe I'll just cry.{slow}{end}",
   "notes": ""
  },
  {
@@ -1334,7 +1334,7 @@
   "hdr": "C1E6",
   "ptr": "C4E7",
   "jp": "{fast}　　　　　　　　ＲＵＳＨ！{n}　ワタシがつうきんにりようしているでんしゃ{n}　は　あるエキできゅうにこみます{n}　すごくツライす　　　　じさつうきんきがん{slow}{end}",
-  "en": "",
+  "en": "        {fast}RUSH!{n}The train I take to work suddenly gets packed at a certain station. It's really rough.{n}     Flextime, please!{slow}{end}",
   "notes": ""
  },
  {
@@ -1342,7 +1342,7 @@
   "hdr": "C1E6",
   "ptr": "C53A",
   "jp": "{fast}　　　　　　ＤＯＮ’Ｔ　ＷＯＲＲＹ{n}　しんぱいごとのあるひと　てをあげて{n}　ダイジョブ　ワタシもあるけどイキている{n}　　　アシタというジはあかるいヒとかくのよ{slow}{end}",
-  "en": "",
+  "en": "     {fast}DON'T WORRY{n}Anyone with worries, raise your hand. It's OK. I have some too, but I'm still alive. They write \"tomorrow\" with the signs for \"bright day\"!{slow}{end}",
   "notes": ""
  },
  {
@@ -1350,7 +1350,7 @@
   "hdr": "C1E6",
   "ptr": "C594",
   "jp": "{fast}　　　Ａ　Ｔａｌｋａｔｉｖｅ　Ｇｉｒｌ{n}　おしゃべりなおんなのコはキライじゃないス{n}　これでかわいくて　せいかくがよけりゃ{n}　こりゃサイコー　　　　　どこかにいない？{slow}{end}",
-  "en": "",
+  "en": "   {fast}A Talkative Girl{n}I don't mind chatty girls. If she's cute and has a nice personality too, that'd be the best. Is there one out there somewhere?{slow}{end}",
   "notes": ""
  },
  {
@@ -1358,7 +1358,7 @@
   "hdr": "C1E6",
   "ptr": "C5EF",
   "jp": "{fast}　　　　　　　　ＸＡＮＧＯ{n}　クスリのんだら　あたまクラクラ　あしもと{n}　フラフラ　ハナのあたまは　まっかっか{n}　　　　　　　　　　かふんショーってヤーネ{slow}{end}",
-  "en": "",
+  "en": "        {fast}XANGO{n}Took my meds and now my head spins, my legs wobble and the tip of my nose is bright red.{n}     Hay fever stinks!{slow}{end}",
   "notes": ""
  },
  {
@@ -1366,7 +1366,7 @@
   "hdr": "C1E6",
   "ptr": "C640",
   "jp": "{fast}　　　ＴＨＥ　ＬＯＳＴ　ＳＵＭＭＥＲ{n}　きがついたら　あきになっていたきょねんの{n}　なつ　ワタシのなつはどこへいってしまった{n}　のだろう　　　　　　　ナツふっかつきがん{slow}{end}",
-  "en": "",
+  "en": "   {fast}THE LOST SUMMER{n}Before I knew it, last summer had turned into fall. Where did my summer go?{n}    Summer, come back!{slow}{end}",
   "notes": ""
  },
  {
@@ -1374,7 +1374,7 @@
   "hdr": "C1E6",
   "ptr": "C69B",
   "jp": "{fast}　　　　　　ＳＩＧＨＴ　ＳＥＥＲ{n}　おんせんいきたーい　ごろごろしたーい{n}　ディスカバージャパン　フジヤマ　ゲイシャ{n}　　　　カカリチョー！　オヤスミクダサーイ{slow}{end}",
-  "en": "",
+  "en": "      {fast}SIGHT SEER{n}I wanna go to a hot spring! I wanna laze around! Discover Japan, Fujiyama, Geisha. Mister Section Chief! Time off, pleeease!{slow}{end}",
   "notes": ""
  },
  {
@@ -1382,7 +1382,7 @@
   "hdr": "C1E6",
   "ptr": "C6F7",
   "jp": "{fast}　　　　　　　ＧＥＴ　ＣＯＬＤ{n}　ことしのカゼはしつこいらしいゾ{n}　うがいと　かんぷまさつできりぬけろ！！{n}　　　　　　　　　　　　　　けんこうきがん{slow}{end}",
-  "en": "",
+  "en": "       {fast}GET COLD{n}They say this year's cold is a stubborn one. Beat it with gargling and dry-towel rubdowns!!{n}         Stay healthy!{slow}{end}",
   "notes": ""
  },
  {
@@ -1390,7 +1390,7 @@
   "hdr": "C1E6",
   "ptr": "C74B",
   "jp": "{fast}　　　　　　　ＡＴ　ＬＡＳＴ{n}　ゲンジツトーヒの５つのほうほう{n}　ねる　ドゲザする　３じかんわらいつづける{n}　バケツのみずをかぶる　リセットボタンをおす{slow}{end}",
-  "en": "",
+  "en": "       {fast}AT LAST{n}5 Ways to Flee Reality{n}Sleep. Grovel. Laugh for 3 hours straight. Dump a bucket of water on your head. Press the Reset button.{slow}{end}",
   "notes": ""
  },
  {
@@ -1398,7 +1398,7 @@
   "hdr": "C1E6",
   "ptr": "C7A5",
   "jp": "{fast}　　　　　Ｇｏ　Ｔｏ　Ｍａｒｋｅｔ{n}　きんじょにいちばがあります{n}　さかながうまいス　また　でぶになったス{n}　　　　　　　　　　　　　ダイエットきがん{slow}{end}",
-  "en": "",
+  "en": "     {fast}Go To Market{n}There's a market in my neighborhood. The fish is great. Got fat again.{n}    Diet, please work!{slow}{end}",
   "notes": ""
  },
  {
@@ -1406,7 +1406,7 @@
   "hdr": "C1E6",
   "ptr": "C7FB",
   "jp": "{fast}　　　　　とんで　とんで　とんで{n}　じつはワタシ　ひこうきにのったことがない{n}　あんなジュラルミンのかたまりがそらをとぶ{n}　なんてシンジラレナーイ{slow}{end}",
-  "en": "",
+  "en": "    {fast}Fly, Fly, Fly{n}Truth is, I've never been on a plane. A lump of duralumin flying through the sky? Unbelieeevable!{slow}{end}",
   "notes": ""
  },
  {
@@ -1414,7 +1414,7 @@
   "hdr": "C1E6",
   "ptr": "C850",
   "jp": "{fast}　　　　　ＢＯＤＹ　ＡＴＴＡＣＫ{n}　ボディアタックがひっさつワザだったじだい{n}　もあるんだよ　プロレスにはさ{n}　あいてがカワイイコなら　そくＫＯだけどさ{slow}{end}",
-  "en": "",
+  "en": "     {fast}BODY ATTACK{n}In pro wrestling, there was a time when the body attack was a finishing move, you know. If the foe's a cutie, it's an instant KO, though.{slow}{end}",
   "notes": ""
  },
  {
@@ -1422,7 +1422,7 @@
   "hdr": "C1E6",
   "ptr": "C8AB",
   "jp": "{fast}　　　　　ＪＥＬＬＹ　ＢＥＡＮＳ{n}　とうきょうの「ずりわな」とかいうとこにゃ{n}　ベッピンさんが　おおぜい　いるらしいのぉ{n}　　　しぬまえにいちどいってみたいものじゃ{slow}{end}",
-  "en": "",
+  "en": "     {fast}JELLY BEANS{n}They say there's a place in Tokyo called \"Zuriwana\" with lots of beauties. I'd like to go there once before I die.{slow}{end}",
   "notes": ""
  },
  {
@@ -1430,7 +1430,7 @@
   "hdr": "C1E6",
   "ptr": "C907",
   "jp": "{fast}　　　　　　　Ｉ’ｍ　Ｂｅａｔ{n}　ピークだったんです　これ　つくってたころ{n}　ねむれないよるにはベッドのなかでなんども{n}　ねがえりうったんです　　いや　ツカレがね{slow}{end}",
-  "en": "",
+  "en": "       {fast}I'm Beat{n}I was at my peak when I made this. On sleepless nights I'd toss and turn in bed again and again. From exhaustion, I mean.{slow}{end}",
   "notes": ""
  },
  {
@@ -1438,7 +1438,7 @@
   "hdr": "C1E6",
   "ptr": "C965",
   "jp": "{fast}　　　　　ＳＨＡＫＥ　ＳＯ　ＢＡＤ{n}　わかるヤツだけ　ついてこい！！　その１{n}　”ＪＥＬＬＹ　ＢＥＡＮＳ”よりは　ハヤリ{n}　のリズムになってます　　　　　　わかる？{slow}{end}",
-  "en": "",
+  "en": "     {fast}SHAKE SO BAD{n}Follow me only if you get it!! Part 1. It has a trendier rhythm than \"JELLY BEANS\". Get it?{slow}{end}",
   "notes": ""
  },
  {
@@ -1446,7 +1446,7 @@
   "hdr": "C1E6",
   "ptr": "C9BC",
   "jp": "{fast}　　　　　　　　ＢＥ　ＩＮ{n}　きがつかないかもしれないが　これはレゲェ{n}　なのであーる　ニホンおんかいとジャマイカ{n}　のダルなリズム　　これもまたフュージョン{slow}{end}",
-  "en": "",
+  "en": "        {fast}BE IN{n}You might not notice, but this is reggae. Japanese scales and a lazy Jamaican rhythm. This too is fusion.{slow}{end}",
   "notes": ""
  },
  {
@@ -1454,7 +1454,7 @@
   "hdr": "C1E6",
   "ptr": "CA16",
   "jp": "{fast}　　　　　ＢＲＡＩＮ　ＳＰＯＲＴＳ{n}　わかるヤツだけ　ついてこい！！　その２{n}　かの”テクノまじん”の　あのきょくにエイ{n}　キョーをうけてつくったきょく　　わかる？{slow}{end}",
-  "en": "",
+  "en": "     {fast}BRAIN SPORTS{n}Follow me only if you get it!! Part 2. A track inspired by that song by that \"Techno Demon\". Get it?{slow}{end}",
   "notes": ""
  },
  {
@@ -1462,7 +1462,7 @@
   "hdr": "C1E6",
   "ptr": "CA6D",
   "jp": "{fast}　　　　　　ＣＬＯＵＤＹ　ＳＫＹ{n}　はじめて　ブロックくずしのはいけいをみた{n}　ときは　ほしぞらが　えがかれていたんだな{n}　それにあわせて　つくったんだけどなぁ{slow}{end}",
-  "en": "",
+  "en": "      {fast}CLOUDY SKY{n}When I first saw the background of the block-breaking game, it showed a starry sky. I wrote this to match it, but...{slow}{end}",
   "notes": ""
  },
  {
@@ -1470,7 +1470,7 @@
   "hdr": "C1E6",
   "ptr": "CAC9",
   "jp": "{fast}　　　　　Ａ・Ｂ　ＳＣＲＡＭＢＬＥ{n}　かいはつがはじまるまえにつくったＢＧＭで{n}　まさか　つかえるとはおもってなかったヨン{n}　なんか　ちょっとトクしたよーなかんじス{slow}{end}",
-  "en": "",
+  "en": "     {fast}A-B SCRAMBLE{n}I made this BGM before development even began. Never thought it'd get used! Feels like I got a little bonus.{slow}{end}",
   "notes": ""
  },
  {
@@ -1478,7 +1478,7 @@
   "hdr": "C1E6",
   "ptr": "CB22",
   "jp": "{fast}　　　　　　　　ＳＨＯＧＵＮ{n}　ボスになれてくると　イントロだけしか{n}　きけないという　おそろしいパターンに{n}　おちいります　ＢＧＭはちゃんときこうネ{slow}{end}",
-  "en": "",
+  "en": "        {fast}SHOGUN{n}Once you get used to a boss, you fall into the dreadful pattern of only ever hearing the intro. Listen to the whole BGM, OK?{slow}{end}",
   "notes": ""
  },
  {
@@ -1486,7 +1486,7 @@
   "hdr": "C1E6",
   "ptr": "CB73",
   "jp": "{fast}　　　　　　　　Ｇｌａｄ　？{n}　コドモのころのほうが　ウレシイことって{n}　おおかったようなきがする　カンドーも{n}　オカネでかえる　ベンリなジダイ　にささぐ{slow}{end}",
-  "en": "",
+  "en": "        {fast}Glad ?{n}I feel like there were more happy things when I was a kid. To this handy era when even emotions can be bought with money.{slow}{end}",
   "notes": ""
  },
  {
@@ -1494,7 +1494,7 @@
   "hdr": "C1E6",
   "ptr": "CBCC",
   "jp": "{fast}　　　Ｒｅｔｒｙ　ｏｒ　Ａｂｏｒｔ　？{n}　あしたできることは　あしたやればいいよね{n}　きょうのところは　このへんでカンベンして{n}　いただいて　たまには　グッスリねむりたい{slow}{end}",
-  "en": "",
+  "en": "   {fast}Retry or Abort ?{n}What can be done tomorrow can wait until tomorrow, right? Please let me off for today. Once in a while I want a good night's sleep.{slow}{end}",
   "notes": ""
  },
  {
@@ -1502,7 +1502,7 @@
   "hdr": "C1E6",
   "ptr": "CC2A",
   "jp": "{fast}　　　　　いとしのコケコッコッコ{n}　ニワトリがきんじょにいるとタイヘンだよね{n}　あさはうるさいし　ちかづくとにげまわるし{n}　タマゴの１つや２つであんなにさわぐとは！{slow}{end}",
-  "en": "",
+  "en": "{fast}Cock-a-Doodle, My Love{n}Chickens in the neighborhood are a pain. Noisy in the morning, they run if you get close. All that fuss over an egg or two!{slow}{end}",
   "notes": ""
  },
  {
@@ -1510,7 +1510,7 @@
   "hdr": "C1E6",
   "ptr": "CC87",
   "jp": "{fast}　　　　　　　もうかりまっか？{n}　プログラマーのＭくんいわく　「このきょく{n}　いいですね　かくとうゲームみたいで・・」{n}　・・・ほめているのか　けなしているのか{slow}{end}",
-  "en": "",
+  "en": "    {fast}Makin' Money?{n}Programmer M-kun said, \"This track is nice. Like a fighting game...\" ...Is that praise or a put-down?{slow}{end}",
   "notes": ""
  },
  {
@@ -1518,7 +1518,7 @@
   "hdr": "C1E6",
   "ptr": "CCDF",
   "jp": "{fast}　　　　　　　　　Ａ・Ａ：{n}　ボスせんのさいちゅうに　とつぜんかかる{n}　ＢＧＭなんで　しんぱいしてたけど　わりと{n}　ハマッてひとあんしん　　サイノーあるなぁ{slow}{end}",
-  "en": "",
+  "en": "         {fast}A.A:{n}It kicks in suddenly in the middle of a boss fight, so I was worried, but it fits pretty well. Phew. I've got talent!{slow}{end}",
   "notes": ""
  },
  {
@@ -1526,7 +1526,7 @@
   "hdr": "C1E6",
   "ptr": "CD35",
   "jp": "{fast}　　　　　　　　ＹＥＳ⁄ＮＯ{n}　ワタシのばあい　ＹＥＳ⁄ＮＯ　よりも{n}　「よいオトモダチでいましょうね」っていう{n}　こたえのほうがおおかったス{slow}{end}",
-  "en": "",
+  "en": "        {fast}YES/NO{n}In my case, rather than YES/NO, the answer was more often \"Let's just be good friends.\"{slow}{end}",
   "notes": ""
  },
  {
@@ -1534,7 +1534,7 @@
   "hdr": "C1E6",
   "ptr": "CD83",
   "jp": "{fast}　　　　　　　ＪＡＣＫ　ＩＮ{n}　サイバーパンクってさ　やっぱりノウミソに{n}　ちょくせつプラグつないでハッキングだよね{n}　このパスワードみつけたアナタもすごいけど{slow}{end}",
-  "en": "",
+  "en": "       {fast}JACK IN{n}Cyberpunk's all about plugging straight into your brain and hacking, right? But you're amazing too for finding this password.{slow}{end}",
   "notes": ""
  },
  {
@@ -1542,7 +1542,7 @@
   "hdr": "C1E6",
   "ptr": "CDE2",
   "jp": "{fast}　　　ＴＨＥ　ＬＯＮＧ　ＥＹＥＬＡＳＨ{n}　ともだちのＳくんは　とてもまつげがながい{n}　マッチぼうが　３ぼんもまつげにのりました{n}　そんなＳくんも　もう　おとうさんです{slow}{end}",
-  "en": "",
+  "en": "   {fast}THE LONG EYELASH{n}My friend S-kun has really long eyelashes. Three matchsticks fit on them. And now even S-kun is a dad.{slow}{end}",
   "notes": ""
  },
  {
@@ -1550,7 +1550,7 @@
   "hdr": "C1E6",
   "ptr": "CE41",
   "jp": "{fast}　　　　　　Ｔｏｏ　Ｇｌａｄ　？{n}　さいきん　うれしいことあった？{n}　ワタシは　オイシイとうふをみつけました{n}　　　　　　　ゆどうふがうれしいきせつです{slow}{end}",
-  "en": "",
+  "en": "      {fast}Too Glad ?{n}Anything happy happen lately? I found some tasty tofu. It's the happy season for boiled tofu.{slow}{end}",
   "notes": ""
  },
  {
@@ -1558,7 +1558,7 @@
   "hdr": "C1E6",
   "ptr": "CE93",
   "jp": "{fast}　　　　　　　やすくて　うまい{n}　こんなオマヌーなＢＧＭがエンディングでも{n}　いいんでしょうか？　うまいかどうかはべつ{n}　にして　まるでワタシのシゴトのようだ・・{slow}{end}",
-  "en": "",
+  "en": "   {fast}Cheap and Tasty{n}Is it OK to have such goofy BGM for the ending? Tasty or not aside, it's just like my work...{slow}{end}",
   "notes": ""
  },
  {
@@ -1566,7 +1566,7 @@
   "hdr": "C1E6",
   "ptr": "CEF1",
   "jp": "{fast}　　　　　つきをみて、きみをおもう{n}　つうきんでんしゃにカワイイコがいるのだ{n}　おかげで　つうきんがたのしくって・・・{n}　ミヅキアリサにすこしにてるあのコにささぐ{slow}{end}",
-  "en": "",
+  "en": " {fast}Gazing at the Moon,{n}    I Think of You{n}There's a cute girl on my commuter train. She makes my commute a blast... To her, who looks a bit like Arisa Mizuki.{slow}{end}",
   "notes": ""
  },
  {
@@ -1574,7 +1574,7 @@
   "hdr": "C1E6",
   "ptr": "CF4D",
   "jp": "{fast}　　Ｃａｎ　Ｙｏｕ　Ｈｅａｒ　Ｍｅ　？{n}　ボツになったジングルなんですよ　これ{n}　すこしＲＯＭがあまったんで　のこしました{n}　パスワードをみつけたゴホービになるかな？{slow}{end}",
-  "en": "",
+  "en": "  {fast}Can You Hear Me ?{n}This is a jingle that got scrapped. There was a bit of ROM left over, so I kept it. Will it do as a reward for finding the password?{slow}{end}",
   "notes": ""
  },
  {
@@ -1582,7 +1582,7 @@
   "hdr": "C198",
   "ptr": "CFAD",
   "jp": "いらっしゃい！{n}ここはパズルゲームよ！{wait:10}{page}よみせでおなじみのたべものを{n}　　タテ・ヨコ・ナナメに{n}３つならべて　けしていこう{wait:10}{page}ミドリの　いぐすりをけすと{n}ポイントがへっちゃいます！{n}きみは　どこまでたべられる？{end}",
-  "en": "",
+  "en": "Welcome! This is the puzzle game!{wait:10}{page}Line up 3 of the foods you know from the night stalls across, down or diagonally to clear them!{wait:10}{page}Clear the green stomach medicine, and your points go down! How much can you eat?{end}",
   "notes": ""
  }
 ]
