@@ -91,7 +91,7 @@ def main():
         if not line.strip() or line.startswith("#"):
             continue
         main_part, _, opts = line.partition("|")
-        x, y, w, text = main_part.strip().split(" ", 3)
+        x, y, w, text = (main_part.strip().split(" ", 3) + [""])[:4]  # no text: clear only
         kw = {}
         for o in opts.split():
             k, _, v = o.partition("=")

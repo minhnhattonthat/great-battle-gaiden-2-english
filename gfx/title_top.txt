@@ -1,0 +1,8 @@
+# Title top line (sprites, export rect starts at screen x=32): THE GREAT BATTLE / GAIDEN, the big 2 stays
+128 0 32   | clear
+16 16 147   | clear h=29
+16 45 142   | clear h=3
+16 16 128 THE GREAT BATTLE | fill=2 low=6 edge=1
+32 32 112 GAIDEN | fill=2 low=6 edge=1
+144 48 14   | clear h=3
+158 45 2   | clear h=2

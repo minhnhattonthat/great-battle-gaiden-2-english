@@ -50,8 +50,29 @@ def cells(vram, L, w=32, h=32):
     return out
 
 
+def obj_cells(dump, rect):
+    """Cells for sprites inside rect (8px cells, screen coords); sprites must sit on the 8px grid."""
+    import oam
+    x0, y0, w, h = rect
+    out = {}
+    for s in oam.sprites(dump):
+        if not (x0 * 8 <= s["x"] < (x0 + w) * 8 and y0 * 8 <= s["y"] < (y0 + h) * 8):
+            continue
+        if s["x"] % 8 or s["y"] % 8:
+            raise SystemExit(f"sprite {s['i']} at {s['x']},{s['y']} is off the 8px grid")
+        for sy in range(s["h"] // 8):
+            for sx in range(s["w"] // 8):
+                tx = s["w"] // 8 - 1 - sx if s["hf"] else sx
+                ty = s["h"] // 8 - 1 - sy if s["vf"] else sy
+                t = s["tile"]
+                sub = (t & 0x100) | ((t + tx) & 0x0F) | ((t & 0xF0) + 16 * ty) & 0xF0
+                addr = (s["addr"] - (t & 0xFF) * 32 + (sub & 0xFF) * 32) & 0xFFFF
+                out.setdefault((s["x"] // 8 + sx, s["y"] // 8 + sy), (addr, s["pal"], s["hf"], s["vf"]))
+    return out
+
+
 def decode(vram, addr, bpp):
-    return [[sum(((vram[(addr + (p // 2) * 16 + y * 2 + (p & 1)) & 0xFFFF] >> (7 - x)) & 1) << p for p in range(bpp))
+    return [[sum(((vram[addr + (p // 2) * 16 + y * 2 + (p & 1)] >> (7 - x)) & 1) << p for p in range(bpp))
              for x in range(8)] for y in range(8)]
 
 
@@ -87,17 +108,26 @@ def main():
     ap.add_argument("cmd", choices=["render", "export", "import"])
     ap.add_argument("src")
     ap.add_argument("rom", nargs="?")
-    ap.add_argument("--bg", type=int, default=1)
+    ap.add_argument("--bg", type=int, default=1, help="1-3, or 0 = sprites (export only, needs --rect)")
     ap.add_argument("--rect")
     ap.add_argument("--out")
     ap.add_argument("--map")
     a = ap.parse_args()
     if a.cmd in ("render", "export"):
         vram, pal, ppu = load(a.src)
-        L = layer(ppu, a.bg)
-        n = 64 if L["large"] else 32
-        cm = cells(vram, L)
-        rect = tuple(map(int, a.rect.split(","))) if a.rect else (0, 0, n, n)
+        rect = tuple(map(int, a.rect.split(","))) if a.rect else None
+        if a.bg == 0:  # sprites
+            L = dict(bpp=4, palbase=128, obj=True)
+            cm = obj_cells(a.src, rect)
+            for y in range(rect[1], rect[1] + rect[3]):  # empty cells: a blank pseudo-tile, never written
+                for x in range(rect[0], rect[0] + rect[2]):
+                    cm.setdefault((x, y), (0x10000, 0, False, False))
+            vram = vram + bytes(32)
+        else:
+            L = layer(ppu, a.bg)
+            cm = cells(vram, L)
+        n = 64 if L.get("large") else 32
+        rect = rect or (0, 0, n, n)
         img = draw(vram, pal, L, cm, rect)
         out = Path(a.out or f"bg{a.bg}.png")
         out.parent.mkdir(parents=True, exist_ok=True)

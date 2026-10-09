@@ -1,3 +1,17 @@
 [
- {"png": "title_menu.png", "map": "9000:9E800", "note": "title menu PASSWORD START MINIGAME (BG3 tiles $100+)"}
+ {
+  "png": "title_menu.png",
+  "map": "9000:9E800",
+  "note": "title menu PASSWORD START MINIGAME (BG3 tiles $100+)"
+ },
+ {
+  "png": "title_logo.png",
+  "map": "0000:C2000",
+  "note": "title logo, BG1 (drawn by gfx/logo.py)"
+ },
+ {
+  "png": "title_top.png",
+  "map": "C000:8E000",
+  "note": "title top line THE GREAT BATTLE / GAIDEN (sprites)"
+ }
 ]
