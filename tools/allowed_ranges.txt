@@ -1,0 +1,12 @@
+4000-4FFF       BG3 font: extra glyphs in blank tiles (font/extra.txt)
+850B-850D       body table address, pre-pass
+8510-8512       body table bank, pre-pass
+854C-854F       pre-pass char count hook (jml)
+855F-8561       pre-pass newline pitch
+8594-8596       pre-pass row-above clear
+86A2-86A4       body table address, printer
+86A7-86A9       body table bank, printer
+86D4-86D6       printer newline pitch
+D418C-D41EB     message headers (vram start -1 row)
+140000-147FFF   bank $28: body table + bodies
+1F8000-1F80FF   bank $3F: asm code
