@@ -92,7 +92,7 @@
   "hdr": "C198",
   "ptr": "D438",
   "jp": "ここはボーナスゲームです！{wait:08}{n}じかんないにおちてくる{n}いろいろな　ひよこを{n}ひろいまくってね！{wait:08}{wait:10}{page}た{wait:03}だ{wait:03}し{wait:03}、{wait:03}くろひよこはだめよ！{wait:08}{wait:10}{n}{n}　それじゃ　がんばってね{wait:03}{end}",
-  "en": "This is the bonus game!{wait:08} Before time runs out, catch all the different chicks that fall!{wait:08}{wait:10}{page}Just{wait:03} one{wait:03} thing{wait:03}:{wait:03} no black chicks!{wait:08}{wait:10}{n}{n}Well then, good luck!{wait:03}{end}",
+  "en": "This is the bonus game!{wait:08} Before time runs out, catch all the different chicks that fall!{wait:08}{wait:10}{page}Just{wait:03} one{wait:03} thing{wait:03}:{wait:03} don't catch the black ones!{wait:08}{wait:10}{n}{n}Well then, good luck!{wait:03}{end}",
   "notes": ""
  },
  {
@@ -108,7 +108,7 @@
   "hdr": "C198",
   "ptr": "D521",
   "jp": "さあ！{wait:08}シューティングゲームよ！{wait:08}{n}バリバリ　てきをたおして{n}クリアをめざしてね！{end}",
-  "en": "Now!{wait:08} It's the shooting game!{wait:08} Blast away the enemies and make it to the clear!{end}",
+  "en": "Now!{wait:08} It's the shooting game!{wait:08} Blast away the enemies and make it to the end!{end}",
   "notes": ""
  },
  {
@@ -396,7 +396,7 @@
   "hdr": "C1AA",
   "ptr": "DC59",
   "jp": "いままで　まけしらずの{wait:0C}{n}この　{wait:0C}おれがっ！{key}{page}このままですむとおもうなよ！{wait:14}{n}にっくき{wait:0C}コンパチヒーローズ！{key}{end}",
-  "en": "Never beaten till now,{wait:0C} and{wait:0C} me, of all people!{key}{page}Don't think this is over!{wait:14} You hateful{wait:0C} Compati Heroes!{key}{end}",
+  "en": "I've never lost{wait:0C} before, and{wait:0C} now ME!?{key}{page}Don't think this is over!{wait:14} You hateful{wait:0C} Compati Heroes!{key}{end}",
   "notes": ""
  },
  {
@@ -596,7 +596,7 @@
   "hdr": "C1C2",
   "ptr": "E424",
   "jp": "{fast}グレート{slow}{wait:10}{n}「ようし！{wait:08}{n}　あのフェスティバルのせんかんに{wait:20}{page}　ぜんいんで　こうげきかいしだ！」{wait:20}{page}{end}",
-  "en": "{fast}Great{slow}{wait:10}{n}\"All right!{wait:08} That festival battleship...{wait:20}{page}Everyone, start the attack!\"{wait:20}{page}{end}",
+  "en": "{fast}Great{slow}{wait:10}{n}\"All right!{wait:08} Emperor Festival's battleship...{wait:20}{page}Everyone, attack it together!\"{wait:20}{page}{end}",
   "notes": ""
  },
  {
@@ -620,7 +620,7 @@
   "hdr": "C1C2",
   "ptr": "E4BD",
   "jp": "{fast}ステイメン{slow}{n}「ようし！{wait:10}{page}　コンパチヒーローズのほこりにかけて{n}　フェスティバルたいていの　まのてから{n}　おまつりをまもってみせるぞ！！」{key}{end}",
-  "en": "{fast}Stamen{slow}{n}\"All right!{wait:10}{page}On the pride of the Compati Heroes, we'll protect the festival from Emperor Festival's evil clutches!!\"{key}{end}",
+  "en": "{fast}Stamen{slow}{n}\"All right!{wait:10}{page}On our honor as Compati Heroes, we'll protect the festival from Emperor Festival's evil clutches!!\"{key}{end}",
   "notes": ""
  },
  {
@@ -636,7 +636,7 @@
   "hdr": "C198",
   "ptr": "E54A",
   "jp": "ひよこひろいに　ようこそ{wait:10}{n}じかんないにおちてくる{n}いろいろな　ひよこを{n}ひろいまくってね！{wait:08}{wait:10}{page}た{wait:03}だ{wait:03}し{wait:03}、{wait:03}くろひよこはだめよ！{wait:08}{wait:10}{n}{n}　それじゃ　がんばってね{wait:03}{end}",
-  "en": "Welcome to Chick Catch!{wait:10} Before time runs out, catch all the different chicks that fall!{wait:08}{wait:10}{page}Just{wait:03} one{wait:03} thing{wait:03}:{wait:03} no black chicks!{wait:08}{wait:10}{n}{n}Well then, good luck!{wait:03}{end}",
+  "en": "Welcome to Chick Catch!{wait:10} Before time runs out, catch all the different chicks that fall!{wait:08}{wait:10}{page}Just{wait:03} one{wait:03} thing{wait:03}:{wait:03} don't catch the black ones!{wait:08}{wait:10}{n}{n}Well then, good luck!{wait:03}{end}",
   "notes": ""
  },
  {
@@ -1150,7 +1150,7 @@
   "hdr": "C192",
   "ptr": "D245",
   "jp": "つよくて、カッコイイ{n}ヒーローのおめんですよ。{end}",
-  "en": "Strong, cool hero masks here!{end}",
+  "en": "Masks of strong, cool heroes here!{end}",
   "notes": ""
  },
  {
@@ -1302,7 +1302,7 @@
   "hdr": "C1E6",
   "ptr": "C378",
   "jp": "{fast}　　　　　　　ＯＶＥＲＴＵＲＥ{n}　サウンドテストをみつけてしまいましたね？{n}　むてきコマンドでも　さがしてたんでしょ？{n}　ざんねんでした　ついてないんだヨ～〜ン{slow}{end}",
-  "en": "       {fast}OVERTURE{n}So, you found the sound test, huh? Looking for an invincibility code, I bet? Too bad, there isn't one! Nyah nyah!{slow}{end}",
+  "en": "{fast}       OVERTURE{n}So, you found the sound test, huh? Looking for an invincibility code, I bet? Too bad, there isn't one! Nyah nyah!{slow}{end}",
   "notes": ""
  },
  {
@@ -1310,7 +1310,7 @@
   "hdr": "C1E6",
   "ptr": "C3D3",
   "jp": "{fast}　　　　　　　Ｒｅａｌｌｙ　？{n}　ＢＧＭがはじまるまで３０びょうあります{n}　こうかおんのあいだに　つぎのＢＧＭにきり{n}　かえちゃいけません　　　　たんきはそんき{slow}{end}",
-  "en": "       {fast}Really ?{n}There are 30 seconds before the BGM starts. Don't switch to the next BGM during the sound effects.{n}        Patience pays!{slow}{end}",
+  "en": "{fast}       Really ?{n}There are 30 seconds before the BGM starts. Don't switch to the next BGM during the sound effects.{n}        Patience pays!{slow}{end}",
   "notes": ""
  },
  {
@@ -1318,7 +1318,7 @@
   "hdr": "C1E6",
   "ptr": "C42C",
   "jp": "{fast}　Ｉ　ＨＯＰＥ　Ａ　ＢＵＭＰＥＲ　ＣＲＯＰ{n}　きょねん（’９３）のナツはさむかったねぇ{n}　エルニーニョなんてダンサブルななまえして{n}　すごいやつです　　　　　　ほうさくきがん{slow}{end}",
-  "en": " {fast}I HOPE A BUMPER CROP{n}Last summer ('93) sure was cold, huh. El Nino: such a danceable name for such a monster.{n}  Bumper crop, please!{slow}{end}",
+  "en": "{fast} I HOPE A BUMPER CROP{n}Last summer ('93) sure was cold, huh. El Nino: such a danceable name for such a monster.{n}  Bumper crop, please!{slow}{end}",
   "notes": ""
  },
  {
@@ -1326,7 +1326,7 @@
   "hdr": "C1E6",
   "ptr": "C48B",
   "jp": "{fast}　　　Ｈｅ　Ｃｌｏｓｅｄ　Ｏｎ　Ｙｏｕ{n}　こんなシゴトしてると　さいごはシメキリと{n}　たたかいになります　シメキリはきがつくと{n}　すぐそこに・・・　もう　ないちゃおうかな{slow}{end}",
-  "en": "   {fast}He Closed On You{n}In a job like this, it always ends in a battle with the deadline. Before you know it, the deadline is right there... Maybe I'll just cry.{slow}{end}",
+  "en": "{fast}   He Closed On You{n}In a job like this, it always ends in a battle with the deadline. Before you know it, the deadline is right there... Maybe I'll just cry.{slow}{end}",
   "notes": ""
  },
  {
@@ -1334,7 +1334,7 @@
   "hdr": "C1E6",
   "ptr": "C4E7",
   "jp": "{fast}　　　　　　　　ＲＵＳＨ！{n}　ワタシがつうきんにりようしているでんしゃ{n}　は　あるエキできゅうにこみます{n}　すごくツライす　　　　じさつうきんきがん{slow}{end}",
-  "en": "        {fast}RUSH!{n}The train I take to work suddenly gets packed at a certain station. It's really rough.{n}     Flextime, please!{slow}{end}",
+  "en": "{fast}        RUSH!{n}The train I take to work suddenly gets packed at a certain station. It's really rough.{n}     Flextime, please!{slow}{end}",
   "notes": ""
  },
  {
@@ -1342,7 +1342,7 @@
   "hdr": "C1E6",
   "ptr": "C53A",
   "jp": "{fast}　　　　　　ＤＯＮ’Ｔ　ＷＯＲＲＹ{n}　しんぱいごとのあるひと　てをあげて{n}　ダイジョブ　ワタシもあるけどイキている{n}　　　アシタというジはあかるいヒとかくのよ{slow}{end}",
-  "en": "     {fast}DON'T WORRY{n}Anyone with worries, raise your hand. It's OK. I have some too, but I'm still alive. They write \"tomorrow\" with the signs for \"bright day\"!{slow}{end}",
+  "en": "{fast}     DON'T WORRY{n}Anyone with worries, raise your hand. It's OK. I have some too, but I'm still alive. They write \"tomorrow\" with the signs for \"bright day\"!{slow}{end}",
   "notes": ""
  },
  {
@@ -1350,7 +1350,7 @@
   "hdr": "C1E6",
   "ptr": "C594",
   "jp": "{fast}　　　Ａ　Ｔａｌｋａｔｉｖｅ　Ｇｉｒｌ{n}　おしゃべりなおんなのコはキライじゃないス{n}　これでかわいくて　せいかくがよけりゃ{n}　こりゃサイコー　　　　　どこかにいない？{slow}{end}",
-  "en": "   {fast}A Talkative Girl{n}I don't mind chatty girls. If she's cute and has a nice personality too, that'd be the best. Is there one out there somewhere?{slow}{end}",
+  "en": "{fast}   A Talkative Girl{n}I don't mind chatty girls. If she's cute and has a nice personality too, that'd be the best. Is there one out there somewhere?{slow}{end}",
   "notes": ""
  },
  {
@@ -1358,7 +1358,7 @@
   "hdr": "C1E6",
   "ptr": "C5EF",
   "jp": "{fast}　　　　　　　　ＸＡＮＧＯ{n}　クスリのんだら　あたまクラクラ　あしもと{n}　フラフラ　ハナのあたまは　まっかっか{n}　　　　　　　　　　かふんショーってヤーネ{slow}{end}",
-  "en": "        {fast}XANGO{n}Took my meds and now my head spins, my legs wobble and the tip of my nose is bright red.{n}     Hay fever stinks!{slow}{end}",
+  "en": "{fast}        XANGO{n}Took my meds and now my head spins, my legs wobble and the tip of my nose is bright red.{n}     Hay fever stinks!{slow}{end}",
   "notes": ""
  },
  {
@@ -1366,7 +1366,7 @@
   "hdr": "C1E6",
   "ptr": "C640",
   "jp": "{fast}　　　ＴＨＥ　ＬＯＳＴ　ＳＵＭＭＥＲ{n}　きがついたら　あきになっていたきょねんの{n}　なつ　ワタシのなつはどこへいってしまった{n}　のだろう　　　　　　　ナツふっかつきがん{slow}{end}",
-  "en": "   {fast}THE LOST SUMMER{n}Before I knew it, last summer had turned into fall. Where did my summer go?{n}    Summer, come back!{slow}{end}",
+  "en": "{fast}   THE LOST SUMMER{n}Before I knew it, last summer had turned into fall. Where did my summer go?{n}    Summer, come back!{slow}{end}",
   "notes": ""
  },
  {
@@ -1374,7 +1374,7 @@
   "hdr": "C1E6",
   "ptr": "C69B",
   "jp": "{fast}　　　　　　ＳＩＧＨＴ　ＳＥＥＲ{n}　おんせんいきたーい　ごろごろしたーい{n}　ディスカバージャパン　フジヤマ　ゲイシャ{n}　　　　カカリチョー！　オヤスミクダサーイ{slow}{end}",
-  "en": "      {fast}SIGHT SEER{n}I wanna go to a hot spring! I wanna laze around! Discover Japan, Fujiyama, Geisha. Mister Section Chief! Time off, pleeease!{slow}{end}",
+  "en": "{fast}      SIGHT SEER{n}I wanna go to a hot spring! I wanna laze around! Discover Japan, Fujiyama, Geisha. Mister Section Chief! Time off, pleeease!{slow}{end}",
   "notes": ""
  },
  {
@@ -1382,7 +1382,7 @@
   "hdr": "C1E6",
   "ptr": "C6F7",
   "jp": "{fast}　　　　　　　ＧＥＴ　ＣＯＬＤ{n}　ことしのカゼはしつこいらしいゾ{n}　うがいと　かんぷまさつできりぬけろ！！{n}　　　　　　　　　　　　　　けんこうきがん{slow}{end}",
-  "en": "       {fast}GET COLD{n}They say this year's cold is a stubborn one. Beat it with gargling and dry-towel rubdowns!!{n}         Stay healthy!{slow}{end}",
+  "en": "{fast}       GET COLD{n}They say this year's cold is a stubborn one. Beat it with gargling and dry-towel rubdowns!!{n}         Stay healthy!{slow}{end}",
   "notes": ""
  },
  {
@@ -1390,7 +1390,7 @@
   "hdr": "C1E6",
   "ptr": "C74B",
   "jp": "{fast}　　　　　　　ＡＴ　ＬＡＳＴ{n}　ゲンジツトーヒの５つのほうほう{n}　ねる　ドゲザする　３じかんわらいつづける{n}　バケツのみずをかぶる　リセットボタンをおす{slow}{end}",
-  "en": "       {fast}AT LAST{n}5 Ways to Flee Reality{n}Sleep. Grovel. Laugh for 3 hours straight. Dump a bucket of water on your head. Press the Reset button.{slow}{end}",
+  "en": "{fast}       AT LAST{n}5 Ways to Flee Reality{n}Sleep. Grovel. Laugh for 3 hours straight. Dump a bucket of water on your head. Press the Reset button.{slow}{end}",
   "notes": ""
  },
  {
@@ -1398,7 +1398,7 @@
   "hdr": "C1E6",
   "ptr": "C7A5",
   "jp": "{fast}　　　　　Ｇｏ　Ｔｏ　Ｍａｒｋｅｔ{n}　きんじょにいちばがあります{n}　さかながうまいス　また　でぶになったス{n}　　　　　　　　　　　　　ダイエットきがん{slow}{end}",
-  "en": "     {fast}Go To Market{n}There's a market in my neighborhood. The fish is great. Got fat again.{n}    Diet, please work!{slow}{end}",
+  "en": "{fast}     Go To Market{n}There's a market in my neighborhood. The fish is great. Got fat again.{n}    Diet, please work!{slow}{end}",
   "notes": ""
  },
  {
@@ -1406,7 +1406,7 @@
   "hdr": "C1E6",
   "ptr": "C7FB",
   "jp": "{fast}　　　　　とんで　とんで　とんで{n}　じつはワタシ　ひこうきにのったことがない{n}　あんなジュラルミンのかたまりがそらをとぶ{n}　なんてシンジラレナーイ{slow}{end}",
-  "en": "    {fast}Fly, Fly, Fly{n}Truth is, I've never been on a plane. A lump of duralumin flying through the sky? Unbelieeevable!{slow}{end}",
+  "en": "{fast}    Fly, Fly, Fly{n}Truth is, I've never been on a plane. A lump of duralumin flying through the sky? Unbelieeevable!{slow}{end}",
   "notes": ""
  },
  {
@@ -1414,7 +1414,7 @@
   "hdr": "C1E6",
   "ptr": "C850",
   "jp": "{fast}　　　　　ＢＯＤＹ　ＡＴＴＡＣＫ{n}　ボディアタックがひっさつワザだったじだい{n}　もあるんだよ　プロレスにはさ{n}　あいてがカワイイコなら　そくＫＯだけどさ{slow}{end}",
-  "en": "     {fast}BODY ATTACK{n}In pro wrestling, there was a time when the body attack was a finishing move, you know. If the foe's a cutie, it's an instant KO, though.{slow}{end}",
+  "en": "{fast}     BODY ATTACK{n}In pro wrestling, there was a time when the body attack was a finishing move, you know. Though if my foe's a cutie, I'M the one KO'd.{slow}{end}",
   "notes": ""
  },
  {
@@ -1422,7 +1422,7 @@
   "hdr": "C1E6",
   "ptr": "C8AB",
   "jp": "{fast}　　　　　ＪＥＬＬＹ　ＢＥＡＮＳ{n}　とうきょうの「ずりわな」とかいうとこにゃ{n}　ベッピンさんが　おおぜい　いるらしいのぉ{n}　　　しぬまえにいちどいってみたいものじゃ{slow}{end}",
-  "en": "     {fast}JELLY BEANS{n}They say there's a place in Tokyo called \"Zuriwana\" with lots of beauties. I'd like to go there once before I die.{slow}{end}",
+  "en": "{fast}     JELLY BEANS{n}They say there's a place in Tokyo called \"Zuriwana\" with lots of beauties. I'd like to go there once before I die.{slow}{end}",
   "notes": ""
  },
  {
@@ -1430,7 +1430,7 @@
   "hdr": "C1E6",
   "ptr": "C907",
   "jp": "{fast}　　　　　　　Ｉ’ｍ　Ｂｅａｔ{n}　ピークだったんです　これ　つくってたころ{n}　ねむれないよるにはベッドのなかでなんども{n}　ねがえりうったんです　　いや　ツカレがね{slow}{end}",
-  "en": "       {fast}I'm Beat{n}I was at my peak when I made this. On sleepless nights I'd toss and turn in bed again and again. From exhaustion, I mean.{slow}{end}",
+  "en": "{fast}       I'm Beat{n}I was at my peak when I made this. On sleepless nights I'd toss and turn in bed again and again. From exhaustion, I mean.{slow}{end}",
   "notes": ""
  },
  {
@@ -1438,7 +1438,7 @@
   "hdr": "C1E6",
   "ptr": "C965",
   "jp": "{fast}　　　　　ＳＨＡＫＥ　ＳＯ　ＢＡＤ{n}　わかるヤツだけ　ついてこい！！　その１{n}　”ＪＥＬＬＹ　ＢＥＡＮＳ”よりは　ハヤリ{n}　のリズムになってます　　　　　　わかる？{slow}{end}",
-  "en": "     {fast}SHAKE SO BAD{n}Follow me only if you get it!! Part 1. It has a trendier rhythm than \"JELLY BEANS\". Get it?{slow}{end}",
+  "en": "{fast}     SHAKE SO BAD{n}Follow me only if you get it!! Part 1. It has a trendier rhythm than \"JELLY BEANS\". Get it?{slow}{end}",
   "notes": ""
  },
  {
@@ -1446,7 +1446,7 @@
   "hdr": "C1E6",
   "ptr": "C9BC",
   "jp": "{fast}　　　　　　　　ＢＥ　ＩＮ{n}　きがつかないかもしれないが　これはレゲェ{n}　なのであーる　ニホンおんかいとジャマイカ{n}　のダルなリズム　　これもまたフュージョン{slow}{end}",
-  "en": "        {fast}BE IN{n}You might not notice, but this is reggae. Japanese scales and a lazy Jamaican rhythm. This too is fusion.{slow}{end}",
+  "en": "{fast}        BE IN{n}You might not notice, but this is reggae. Japanese scales and a lazy Jamaican rhythm. This too is fusion.{slow}{end}",
   "notes": ""
  },
  {
@@ -1454,7 +1454,7 @@
   "hdr": "C1E6",
   "ptr": "CA16",
   "jp": "{fast}　　　　　ＢＲＡＩＮ　ＳＰＯＲＴＳ{n}　わかるヤツだけ　ついてこい！！　その２{n}　かの”テクノまじん”の　あのきょくにエイ{n}　キョーをうけてつくったきょく　　わかる？{slow}{end}",
-  "en": "     {fast}BRAIN SPORTS{n}Follow me only if you get it!! Part 2. A track inspired by that song by that \"Techno Demon\". Get it?{slow}{end}",
+  "en": "{fast}     BRAIN SPORTS{n}Follow me only if you get it!! Part 2. A track inspired by that song by that \"Techno Demon\". Get it?{slow}{end}",
   "notes": ""
  },
  {
@@ -1462,7 +1462,7 @@
   "hdr": "C1E6",
   "ptr": "CA6D",
   "jp": "{fast}　　　　　　ＣＬＯＵＤＹ　ＳＫＹ{n}　はじめて　ブロックくずしのはいけいをみた{n}　ときは　ほしぞらが　えがかれていたんだな{n}　それにあわせて　つくったんだけどなぁ{slow}{end}",
-  "en": "      {fast}CLOUDY SKY{n}When I first saw the background of the block-breaking game, it showed a starry sky. I wrote this to match it, but...{slow}{end}",
+  "en": "{fast}      CLOUDY SKY{n}When I first saw the background of the block-breaking game, it showed a starry sky. I wrote this to match it, but...{slow}{end}",
   "notes": ""
  },
  {
@@ -1470,7 +1470,7 @@
   "hdr": "C1E6",
   "ptr": "CAC9",
   "jp": "{fast}　　　　　Ａ・Ｂ　ＳＣＲＡＭＢＬＥ{n}　かいはつがはじまるまえにつくったＢＧＭで{n}　まさか　つかえるとはおもってなかったヨン{n}　なんか　ちょっとトクしたよーなかんじス{slow}{end}",
-  "en": "     {fast}A-B SCRAMBLE{n}I made this BGM before development even began. Never thought it'd get used! Feels like I got a little bonus.{slow}{end}",
+  "en": "{fast}     A-B SCRAMBLE{n}I made this BGM before development even began. Never thought it'd get used! Feels like I got a little bonus.{slow}{end}",
   "notes": ""
  },
  {
@@ -1478,7 +1478,7 @@
   "hdr": "C1E6",
   "ptr": "CB22",
   "jp": "{fast}　　　　　　　　ＳＨＯＧＵＮ{n}　ボスになれてくると　イントロだけしか{n}　きけないという　おそろしいパターンに{n}　おちいります　ＢＧＭはちゃんときこうネ{slow}{end}",
-  "en": "        {fast}SHOGUN{n}Once you get used to a boss, you fall into the dreadful pattern of only ever hearing the intro. Listen to the whole BGM, OK?{slow}{end}",
+  "en": "{fast}        SHOGUN{n}Once you get used to a boss, you fall into the dreadful pattern of only ever hearing the intro. Listen to the whole BGM, OK?{slow}{end}",
   "notes": ""
  },
  {
@@ -1486,7 +1486,7 @@
   "hdr": "C1E6",
   "ptr": "CB73",
   "jp": "{fast}　　　　　　　　Ｇｌａｄ　？{n}　コドモのころのほうが　ウレシイことって{n}　おおかったようなきがする　カンドーも{n}　オカネでかえる　ベンリなジダイ　にささぐ{slow}{end}",
-  "en": "        {fast}Glad ?{n}I feel like there were more happy things when I was a kid. To this handy era when even emotions can be bought with money.{slow}{end}",
+  "en": "{fast}        Glad ?{n}I feel like there were more happy things when I was a kid. To this handy era when even emotions can be bought with money.{slow}{end}",
   "notes": ""
  },
  {
@@ -1494,7 +1494,7 @@
   "hdr": "C1E6",
   "ptr": "CBCC",
   "jp": "{fast}　　　Ｒｅｔｒｙ　ｏｒ　Ａｂｏｒｔ　？{n}　あしたできることは　あしたやればいいよね{n}　きょうのところは　このへんでカンベンして{n}　いただいて　たまには　グッスリねむりたい{slow}{end}",
-  "en": "   {fast}Retry or Abort ?{n}What can be done tomorrow can wait until tomorrow, right? Please let me off for today. Once in a while I want a good night's sleep.{slow}{end}",
+  "en": "{fast}   Retry or Abort ?{n}What can be done tomorrow can wait until tomorrow, right? Please let me off for today. Once in a while I want a good night's sleep.{slow}{end}",
   "notes": ""
  },
  {
@@ -1510,7 +1510,7 @@
   "hdr": "C1E6",
   "ptr": "CC87",
   "jp": "{fast}　　　　　　　もうかりまっか？{n}　プログラマーのＭくんいわく　「このきょく{n}　いいですね　かくとうゲームみたいで・・」{n}　・・・ほめているのか　けなしているのか{slow}{end}",
-  "en": "    {fast}Makin' Money?{n}Programmer M-kun said, \"This track is nice. Like a fighting game...\" ...Is that praise or a put-down?{slow}{end}",
+  "en": "{fast}    Makin' Money?{n}Programmer M-kun said, \"This track is nice. Like a fighting game...\" ...Is that praise or a put-down?{slow}{end}",
   "notes": ""
  },
  {
@@ -1518,7 +1518,7 @@
   "hdr": "C1E6",
   "ptr": "CCDF",
   "jp": "{fast}　　　　　　　　　Ａ・Ａ：{n}　ボスせんのさいちゅうに　とつぜんかかる{n}　ＢＧＭなんで　しんぱいしてたけど　わりと{n}　ハマッてひとあんしん　　サイノーあるなぁ{slow}{end}",
-  "en": "         {fast}A.A:{n}It kicks in suddenly in the middle of a boss fight, so I was worried, but it fits pretty well. Phew. I've got talent!{slow}{end}",
+  "en": "{fast}         A.A:{n}It kicks in suddenly in the middle of a boss fight, so I was worried, but it fits pretty well. Phew. I've got talent!{slow}{end}",
   "notes": ""
  },
  {
@@ -1526,7 +1526,7 @@
   "hdr": "C1E6",
   "ptr": "CD35",
   "jp": "{fast}　　　　　　　　ＹＥＳ⁄ＮＯ{n}　ワタシのばあい　ＹＥＳ⁄ＮＯ　よりも{n}　「よいオトモダチでいましょうね」っていう{n}　こたえのほうがおおかったス{slow}{end}",
-  "en": "        {fast}YES/NO{n}In my case, rather than YES/NO, the answer was more often \"Let's just be good friends.\"{slow}{end}",
+  "en": "{fast}        YES/NO{n}In my case, rather than YES/NO, the answer was more often \"Let's just be good friends.\"{slow}{end}",
   "notes": ""
  },
  {
@@ -1534,7 +1534,7 @@
   "hdr": "C1E6",
   "ptr": "CD83",
   "jp": "{fast}　　　　　　　ＪＡＣＫ　ＩＮ{n}　サイバーパンクってさ　やっぱりノウミソに{n}　ちょくせつプラグつないでハッキングだよね{n}　このパスワードみつけたアナタもすごいけど{slow}{end}",
-  "en": "       {fast}JACK IN{n}Cyberpunk's all about plugging straight into your brain and hacking, right? But you're amazing too for finding this password.{slow}{end}",
+  "en": "{fast}       JACK IN{n}Cyberpunk's all about plugging straight into your brain and hacking, right? But you're amazing too for finding this password.{slow}{end}",
   "notes": ""
  },
  {
@@ -1542,7 +1542,7 @@
   "hdr": "C1E6",
   "ptr": "CDE2",
   "jp": "{fast}　　　ＴＨＥ　ＬＯＮＧ　ＥＹＥＬＡＳＨ{n}　ともだちのＳくんは　とてもまつげがながい{n}　マッチぼうが　３ぼんもまつげにのりました{n}　そんなＳくんも　もう　おとうさんです{slow}{end}",
-  "en": "   {fast}THE LONG EYELASH{n}My friend S-kun has really long eyelashes. Three matchsticks fit on them. And now even S-kun is a dad.{slow}{end}",
+  "en": "{fast}   THE LONG EYELASH{n}My friend S-kun has really long eyelashes. Three matchsticks fit on them. And now even S-kun is a dad.{slow}{end}",
   "notes": ""
  },
  {
@@ -1550,7 +1550,7 @@
   "hdr": "C1E6",
   "ptr": "CE41",
   "jp": "{fast}　　　　　　Ｔｏｏ　Ｇｌａｄ　？{n}　さいきん　うれしいことあった？{n}　ワタシは　オイシイとうふをみつけました{n}　　　　　　　ゆどうふがうれしいきせつです{slow}{end}",
-  "en": "      {fast}Too Glad ?{n}Anything happy happen lately? I found some tasty tofu. It's the happy season for boiled tofu.{slow}{end}",
+  "en": "{fast}      Too Glad ?{n}Anything good happen lately? I found some tasty tofu. It's the perfect season for hot tofu.{slow}{end}",
   "notes": ""
  },
  {
@@ -1558,7 +1558,7 @@
   "hdr": "C1E6",
   "ptr": "CE93",
   "jp": "{fast}　　　　　　　やすくて　うまい{n}　こんなオマヌーなＢＧＭがエンディングでも{n}　いいんでしょうか？　うまいかどうかはべつ{n}　にして　まるでワタシのシゴトのようだ・・{slow}{end}",
-  "en": "   {fast}Cheap and Tasty{n}Is it OK to have such goofy BGM for the ending? Tasty or not aside, it's just like my work...{slow}{end}",
+  "en": "{fast}    Cheap and Good{n}Is it OK to have such goofy BGM for the ending? Never mind if it's any good... it's cheap, just like my work...{slow}{end}",
   "notes": ""
  },
  {
@@ -1566,7 +1566,7 @@
   "hdr": "C1E6",
   "ptr": "CEF1",
   "jp": "{fast}　　　　　つきをみて、きみをおもう{n}　つうきんでんしゃにカワイイコがいるのだ{n}　おかげで　つうきんがたのしくって・・・{n}　ミヅキアリサにすこしにてるあのコにささぐ{slow}{end}",
-  "en": " {fast}Gazing at the Moon,{n}    I Think of You{n}There's a cute girl on my commuter train. She makes my commute a blast... To her, who looks a bit like Arisa Mizuki.{slow}{end}",
+  "en": "{fast} Gazing at the Moon,{n}    I Think of You{n}There's a cute girl on my commuter train. She makes my commute a blast... To her, who looks a bit like Arisa Mizuki.{slow}{end}",
   "notes": ""
  },
  {
@@ -1574,7 +1574,7 @@
   "hdr": "C1E6",
   "ptr": "CF4D",
   "jp": "{fast}　　Ｃａｎ　Ｙｏｕ　Ｈｅａｒ　Ｍｅ　？{n}　ボツになったジングルなんですよ　これ{n}　すこしＲＯＭがあまったんで　のこしました{n}　パスワードをみつけたゴホービになるかな？{slow}{end}",
-  "en": "  {fast}Can You Hear Me ?{n}This is a jingle that got scrapped. There was a bit of ROM left over, so I kept it. Will it do as a reward for finding the password?{slow}{end}",
+  "en": "{fast}  Can You Hear Me ?{n}This is a jingle that got scrapped. There was a bit of ROM left over, so I kept it. Will it do as a reward for finding the password?{slow}{end}",
   "notes": ""
  },
  {

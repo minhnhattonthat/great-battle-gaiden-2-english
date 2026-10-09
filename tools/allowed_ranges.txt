@@ -7,6 +7,10 @@
 86A2-86A4       body table address, printer
 86A7-86A9       body table bank, printer
 86D4-86D6       printer newline pitch
+93AE-948D       stall item names (14 x 16 bytes)
+5AB72-5AB79     game over: Continue? source/len/vram
+5AD1B-5AD5B     game over: row source/len/vram operands
+5E211-5E243     game over: strings
 D418C-D41EB     message headers (vram start -1 row)
 140000-147FFF   bank $28: body table + bodies
 1F8000-1F80FF   bank $3F: asm code

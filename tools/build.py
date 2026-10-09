@@ -51,23 +51,22 @@ def width(s):
 
 
 def wrap(page, w):
-    """Greedy word wrap of one page to w tiles. {n} is a hard break; leading spaces of a hard line are kept."""
+    """Greedy word wrap of one page to w tiles. {n} is a hard break; leading codes + spaces of a hard line are kept
+    (indent), runs of spaces inside a line collapse to one."""
     out = []
     for hard in page.split("{n}"):
-        indent = len(hard) - len(hard.lstrip(" "))
-        words = hard.lstrip(" ").split(" ")
-        line = " " * indent
-        for word in words:
-            if not word and line.strip():
-                continue  # collapse runs of spaces inside a line
-            cand = word if not line.strip() else f"{line} {word}"
-            if not line.strip():
-                cand = line + word
-            if width(cand) > w and line.strip():
+        lead = re.match(r"(?:\{[^}]*\}| )*", hard)
+        line, started = lead[0], False
+        for word in hard[lead.end():].split(" "):
+            if not word:
+                continue
+            cand = f"{line} {word}" if started else line + word
+            if started and width(cand) > w:
                 out.append(line)
                 line = word
             else:
                 line = cand
+            started = True
         out.append(line)
     return out
 
@@ -140,10 +139,10 @@ def lint(script, box=None):
 
 
 def font_extra(rom):
-    tile, rows = None, []
+    tile, rows, replace = None, [], False
     for line in (ROOT / "font" / "extra.txt").read_text(encoding="utf-8").splitlines():
         if line.startswith("@"):
-            tile, rows = int(line.split()[1], 16), []
+            tile, rows, replace = int(line.split()[1], 16), [], line.split()[-1] == "replace"
         elif tile is not None and len(line) == 8 and not line.startswith("#"):
             rows.append(line)
             if len(rows) == 8:
@@ -153,7 +152,7 @@ def font_extra(rom):
                     data += bytes([sum((p & 1) << (7 - x) for x, p in enumerate(px)),
                                    sum((p >> 1) << (7 - x) for x, p in enumerate(px))])
                 o = 0x4000 + tile * 16
-                if any(rom[o:o + 16]):
+                if any(rom[o:o + 16]) and not replace:
                     raise SystemExit(f"font/extra.txt: tile {tile:02X} is not blank in the original")
                 rom[o:o + 16] = data
                 tile = None
@@ -166,6 +165,9 @@ def build(out, use_marker=False):
     rom += b"\xFF" * (SIZE - len(rom))
     font_extra(rom)
     BUILD.mkdir(exist_ok=True)
+    # asar char map so asm can write English strings: db "Continue?"
+    (BUILD / "en_chars.asm").write_text("".join(f"'{c}' = ${b:02X}\n" for c, b in EN_CHARS if c != "'")
+                                        + "''' = $5A\n", encoding="utf-8", newline="\n")
     out.write_bytes(rom)
     r = subprocess.run([str(ASAR), "--no-title-check", "--fix-checksum=off",str(ROOT / "asm" / "main.asm"), str(out)],
                        capture_output=True, text=True)

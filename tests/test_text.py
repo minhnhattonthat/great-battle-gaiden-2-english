@@ -27,6 +27,7 @@ def test_lint_and_glossary():
 def test_wrap_keeps_indent_and_hard_breaks():
     assert build.wrap("  Go team go{n}Compati Heroes!", 8) == ["  Go", "team go", "Compati", "Heroes!"]
     assert build.wrap("ab{wait:10} cd", 5) == ["ab{wait:10} cd"]
+    assert build.wrap("{fast}   Title{n}a  b", 9) == ["{fast}   Title", "a b"]
 
 
 def test_layout_double_spaces_when_it_fits():
