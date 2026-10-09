@@ -26,7 +26,14 @@ Skill: translate-retro-game (H:/translation/great-battle-gaiden-2/.claude/skills
 - English: existing BG3 font has A-Z a-z 0-9; extra glyphs `,` `-` in blank tiles. Line pitch 1 row (asm);
   build double-spaces when a message fits. Box = widest JP line x 2 rows per JP line (build.boxes).
 
+## Other text (asm/main.asm)
+- Stall item names $01:93AE (14 x 16 B: top row + bottom row, 8 tiles each). Game over/continue rows $0B:AB6C/AD13
+  (strings $0B:E211). Price 円 tile E8 redrawn as bold ¥ (font/extra.txt). Advance dialogue with B, not A.
+- Scans: `--script tools/lua/bg3scan.lua` logs BG3 kana outside messages (none left past boot in a 85k-frame tour).
+
 ## Status (2026-10-10)
-- Done: recon, roundtrip/coverage, engine spike (marker build boots, boxes verified for C1C2/C1D4/C1C8).
-- Next: glossary from docs/research-names.md, translate b1/b2, astra review, find non-message text (title, 春のお祭り
-  banner graphic, stage names, minigames, ending/credits).
+- Done: all 198 messages translated (b1, b2), astra-reviewed (0 Critical; Importants fixed, docs/review/), item
+  names, game-over text. In game checked: intro talk, player select, Emmy guide, stall pop-ups, game over.
+- Next: graphics with Japanese (title logo, 春のお祭り stage banners, げーむおーばー + はい/いいえ, HUD 円 sprite,
+  stall signs, げーむ sign); reach minigames/bosses/ending (random tour never got past stage 1); release.
+- Polish pass: translator notes listed in docs/review/2026-10-10-astra.md.
