@@ -4,6 +4,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
+import batches  # noqa: E402
 import build  # noqa: E402
 import text  # noqa: E402
 
@@ -18,8 +19,9 @@ def test_coverage():
     assert text.coverage()
 
 
-def test_lint():
-    assert build.lint(text.load()) == []
+def test_lint_and_glossary():
+    script = text.load()
+    assert batches.problems(script, {e["id"]: e["en"] for e in script if e["en"]}) == []
 
 
 def test_wrap_keeps_indent_and_hard_breaks():

@@ -113,9 +113,10 @@ def codes(s, drop=("{n}", "{page}", "{key}")):
     return sorted(re.sub(r":..", "", c) for c in CTRL.findall(s) if c not in drop and not c.startswith("{wait"))
 
 
-def lint(script):
-    """Errors for translated entries: layout, encodability, control codes, page breaks, leftover Japanese."""
-    box, errs = boxes(script), []
+def lint(script, box=None):
+    """Errors for translated entries: layout, encodability, control codes, page breaks, leftover Japanese.
+    box: header geometry from the FULL script (pass it when linting a subset)."""
+    box, errs = box or boxes(script), []
     for e in script:
         en = e["en"]
         if not en:

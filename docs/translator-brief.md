@@ -1,7 +1,7 @@
 # Translator brief - The Great Battle Gaiden 2: Matsuri da Wasshoi (SNES, Banpresto 1994)
 
 You translate part of the Japanese script of this game into English for a fan patch. It is a light, goofy action game:
-the Compati Heroes (SD Ultraman Great, Kamen Rider Black RX, Gundam GP03 Stamen and the original hero Roa) defend a
+the Compati Heroes (SD Ultraman Great, Kamen Rider Black RX, Gundam GP03 Stamen and the original hero Roar) defend a
 festival town, Neo Asakusa, from kaiju and mobile suits. Tone: comedic, festival banter, hammy villains, stall keepers'
 patter. The sound-test notes (ids 0A2-0C4) are joke comments by the developers about each music track.
 Work only on the batch named in your dispatch. Do all translation yourself; do not dispatch subagents.

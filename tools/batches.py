@@ -18,7 +18,7 @@ import text  # noqa: E402
 ROOT = text.ROOT
 TL = ROOT / "work" / "tl"
 BATCHES = {"b1": (0x000, 0x060), "b2": (0x061, 0x0C5)}
-SPEAKER = re.compile(r"^\{fast\}([^{]+)\{slow\}\{n\}")
+SPEAKER = re.compile(r"^\{fast\}([^{]+)\{slow\}(?:\{wait:..\})?\{n\}")
 
 
 def batch_entries(script, name):
@@ -71,7 +71,7 @@ def problems(script, en):
     by_id = {e["id"]: e for e in script}
     errs = [f"{k}: unknown id" for k in en if k not in by_id]
     trial = [dict(by_id[k], en=v) for k, v in en.items() if k in by_id]
-    errs += [m for m in build.lint(trial)]
+    errs += build.lint(trial, build.boxes(script))
     errs += [f"{k}: tab or \\u escape" for k, v in en.items() if "\t" in v or "\\u" in v]
     for row in glossary_rows():
         jp, eng = row[0], row[1]
@@ -79,7 +79,7 @@ def problems(script, en):
         for e in trial:
             if jp in e["jp"] and eng and eng.lower() not in e["en"].lower():
                 errs.append(f"{e['id']}: glossary {jp} -> {eng} missing")
-            errs += [f"{e['id']}: avoid {a!r}" for a in avoid if a and a in e["en"]]
+            errs += [f"{e['id']}: avoid {a!r}" for a in avoid if a and re.search(rf"\b{re.escape(a)}\b", e["en"])]
     return errs
 
 
