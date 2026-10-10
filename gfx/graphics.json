@@ -81,5 +81,9 @@
  {
   "script": "mg_over.py",
   "note": "minigame GAME CLEAR / GAME OVER banner (BG3 tiles 0x124-0x135 + 3 tilemap copies)"
+ },
+ {
+  "script": "signs.py",
+  "note": "stall signs in the stall sheet (ROM 0x51000): TAKOYAKI, CORN, CANDY"
  }
 ]
