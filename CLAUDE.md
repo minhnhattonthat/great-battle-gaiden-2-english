@@ -55,7 +55,6 @@ Skill: translate-retro-game (H:/translation/great-battle-gaiden-2/.claude/skills
   (work/cut.py 10). Done there: staff roll (gfx/staffroll.py), THE END, ending picture signs, boss float PRIZE placard.
 - Left on purpose / open: Kaminarimon landmark kanji (雷門 lantern, 金龍山 plaque, scene 3), 大安売 sale flag on the
   scene 23 boss (sprite sheet 0xB8000, several poses, cloth ~10 px wide).
-- Next (JP left): autumn board's second text line (ぷか.. under はしのうえ, tiles 0x90880+, not seen in game yet),
-  other-stage signs/bosses/ending (bots die; sweep with work/pwall.py S A frames: forced password + HP freeze at $090C),
-  Emmy-room げーむ sign not found (room shows no baked JP), staff roll/ending never reached. Then release (BPS, README).
+- Next: autumn board's second text line (under はしのうえ, tiles 0x90880+, not seen in game), the two open items above
+  (ask the user), then release (BPS, README). All 34 scenes + ending reviewed by screenshots (work/scenes_all.py).
 - Polish pass: translator notes listed in docs/review/2026-10-10-astra.md.
