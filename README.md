@@ -4,7 +4,9 @@ A full English fan translation of **The Great Battle Gaiden 2: Matsuri da Wassho
 Banpresto, Super Famicom, 1994). Text and the Japanese baked into graphics are translated; there is no Japanese-only
 screen left that I know of, apart from the items under *Known issues*.
 
-Version **1.0**.
+Version **1.1**.
+
+Changes in 1.1: the Winter-castle boss flag no longer says 大安売.
 
 ## What is translated
 
@@ -32,16 +34,16 @@ You need your own dump of the Japanese ROM (header-less `.sfc`):
 | SHA-1 | `76941A710D54943E30212B90C8A14DC1995FE3D2` |
 | MD5 | `8C19E5107985ED27FAC3AD8BD2EB1D70` |
 
-Apply `The Great Battle Gaiden 2 - English v1.0.bps` with [Floating IPS](https://github.com/Alcaro/Flips),
+Apply `The Great Battle Gaiden 2 - English v1.1.bps` with [Floating IPS](https://github.com/Alcaro/Flips),
 [RomPatcher.js](https://www.romhacking.net/patch/) or [beat](https://github.com/Themaister/beat). The result is a 2 MB
 ROM (the extra space holds the English text and code):
 
 | | |
 |---|---|
 | Size | 2,097,152 bytes |
-| CRC32 | `98880F95` |
-| SHA-1 | `132306DAEF2FB1CD9ACA022F90FF4CA47176C5CE` |
-| MD5 | `D3F6580249CA10F1A3C87DC083F5EABA` |
+| CRC32 | `2C174C5E` |
+| SHA-1 | `0B2DAB658DD9290C0B52614AFFC39D4236A47A11` |
+| MD5 | `2C44774F2E61571B8D50F61EC686A734` |
 
 Tested on Mesen2 (headless and GUI). It should run on other accurate emulators and on flash carts that take 2 MB
 LoROM; it has not been tested on real hardware.
