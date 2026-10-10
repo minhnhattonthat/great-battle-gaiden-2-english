@@ -1,0 +1,18 @@
+# Cold boot -> title menu -> MINIGAME -> Puzzle Game (play screen from ~frame 2600)
+900 -
+6 start
+300 -
+6 right
+20 -
+6 a
+400 -
+6 down
+20 -
+6 down
+20 -
+6 a
+400 -
+6 start
+300 -
+6 start
+300 -

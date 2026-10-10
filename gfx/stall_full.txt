@@ -1,0 +1,7 @@
+# Stall food puzzle: vertical まんぷくど plaque (BG1 rect 20,18 = 16x64 px, lilac, palette 3) -> FULL stacked, 15 px pitch.
+# (h=13 puts the green low-light on the last two body rows)
+2 2 12 | clear h=60 bg=3
+2 2 12 F | bold=1 sy=1.5 h=13 adv=8 fill=2 low=12 edge=4
+2 17 12 U | bold=1 sy=1.5 h=13 adv=8 fill=2 low=12 edge=4
+2 32 12 L | bold=1 sy=1.5 h=13 adv=8 fill=2 low=12 edge=4
+2 47 12 L | bold=1 sy=1.5 h=13 adv=8 fill=2 low=12 edge=4

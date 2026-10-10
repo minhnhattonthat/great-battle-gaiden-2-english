@@ -40,5 +40,20 @@
  {
   "script": "gc_head.py",
   "note": "game corner header GAME CORNER (BG1 tiles 0xA8980, records 0x10D38C)"
+ },
+ {
+  "png": "pz_score.png",
+  "map": "9800:10F400",
+  "note": "puzzle game labels SCORE / LEVEL (BG3 2bpp, raw 0x10F400)"
+ },
+ {
+  "png": "pz_next.png",
+  "map": "0000:AD200",
+  "note": "puzzle game NEXT plaque (BG1 4bpp raw, VRAM+0xAD200)"
+ },
+ {
+  "png": "stall_full.png",
+  "map": "0000:AD200",
+  "note": "stall food puzzle FULL plaque (BG1 4bpp raw, VRAM+0xAD200)"
  }
 ]

@@ -25,3 +25,9 @@ BEC00-BF23F     password screen BG1 tiles (header)
 10E828-10EF30   password screen copy-loop operands + dakuten immediates (bank $21)
 A8980-A997F     game corner BG1 tiles (header)
 10D38C-10D3D3   game corner header tilemap records
+10F400-10F68F   minigame puzzle: SCORE/LEVEL BG3 tiles
+ADAC0-ADB7F     minigame puzzle: NEXT plaque BG1 tiles (rows 2-3..6-7)
+ADCC0-ADD7F     minigame puzzle: NEXT plaque BG1 tiles (second tile row)
+ADB80-ADBFF     stall food puzzle: FULL plaque BG1 tiles
+ADD80-ADE7F     stall food puzzle: FULL plaque BG1 tiles
+AE000-AE07F     stall food puzzle: FULL plaque BG1 tiles

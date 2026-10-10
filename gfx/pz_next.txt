@@ -1,0 +1,7 @@
+# Puzzle game NEXT plaque, BG1 rect 22,2 (16x48 px, lilac, palette 3): 3 stacked kana -> N E X T stacked, 11 px pitch.
+# (h=11 only moves the green low-light to the last body row)
+2 2 12 | clear h=44 bg=3
+2 2 12 N | sx=2 sy=1 h=11 adv=12 fill=2 low=12 edge=4
+2 13 12 E | sx=2 sy=1 h=11 adv=12 fill=2 low=12 edge=4
+2 24 12 X | sx=2 sy=1 h=11 adv=12 fill=2 low=12 edge=4
+2 35 12 T | sx=2 sy=1 h=11 adv=12 fill=2 low=12 edge=4

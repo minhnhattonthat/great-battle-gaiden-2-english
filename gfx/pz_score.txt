@@ -1,0 +1,8 @@
+# Puzzle game labels, BG3 rect 22,18 (8x7 cells): SCORE = rows 18-20, LEVEL = rows 22-24.
+# Cell (25,22) is the blank tile 0 shared with the whole screen: never painted, so LEVEL lives in rows 23-24.
+0 0 64 | clear h=24
+8 32 16 | clear h=8
+32 32 24 | clear h=8
+8 40 48 | clear h=16
+0 5 64 SCORE | adv=11
+8 40 48 LEVEL | adv=9

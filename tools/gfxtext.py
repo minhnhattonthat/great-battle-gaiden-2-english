@@ -4,7 +4,8 @@
 
 Spec lines: `X Y W TEXT` (pixels inside the PNG; W = box the word is centred in) plus options after `|`:
 `clear` (wipe the box to colour 0 first), `h=16` (16 = 5x7 font doubled in height, 8 = plain), `fill=2 low=3 edge=1`
-(palette indices: upper fill, lower fill, outline), `adv=7` (letter advance, default 8 when h=16 else 6).
+(palette indices: upper fill, lower fill, outline), `adv=7` (letter advance, default 8 when h=16 else 6),
+`sx=2 sy=1.5 bold=1` (explicit scale of the 5x7 font, sy may be fractional; bold = 2 px stems), `bg=3` (palette index `clear` fills with; 0 = transparent).
 """
 import argparse
 import json
@@ -37,24 +38,25 @@ FONT5x7 = {
 }
 
 
-def word_mask(text, h=16, adv=None):
-    """-> (w, h, set of fill pixels with their row) for the glyph bodies (bold, before outline)."""
+def word_mask(text, h=16, adv=None, sx=None, sy=None, bold=None):
+    """-> (w, h, set of fill pixels with their row) for the glyph bodies (bold, before outline).
+    sx / sy: explicit pixel scale (5x7 font x sx, x sy) instead of the h=16 bold / h=8 plain look."""
     adv = adv or (8 if h == 16 else 6)
-    scale = 2 if h == 16 else 1
+    scale = sy or (2 if h == 16 else 1)
     px = set()
     for i, ch in enumerate(text.upper()):
         rows = FONT5x7[ch].split()
         for y, row in enumerate(rows):
             for x, bit in enumerate(row):
                 if bit == "1":
-                    for dy in range(scale):
-                        for dx in (0, 1) if h == 16 else (0,):
-                            px.add((i * adv + 1 + x + dx, 1 + y * scale + dy))
+                    for dy in range(int(y * scale), int((y + 1) * scale)):  # sy may be fractional (1.5)
+                        for dx in range(sx) if sx else (0, 1) if bold or h == 16 else (0,):
+                            px.add((i * adv + 1 + x * (sx or 1) + dx, 1 + dy))
     width = len(text) * adv
     return width, h, px
 
 
-def paint(img, meta, x0, y0, w, text, fill=2, low=3, edge=1, h=16, adv=None, clear=False):
+def paint(img, meta, x0, y0, w, text, fill=2, low=3, edge=1, h=16, adv=None, clear=False, sx=None, sy=None, bg=0, bold=None):
     lay, (rx, ry, _, _), pal = meta["layer"], meta["rect"], [tuple(c) for c in meta["palette"]]
     cells = {tuple(map(int, k.split(","))): v for k, v in meta["cells"].items()}
 
@@ -66,8 +68,8 @@ def paint(img, meta, x0, y0, w, text, fill=2, low=3, edge=1, h=16, adv=None, cle
     if clear:
         for y in range(y0, y0 + h):
             for x in range(x0, x0 + w):
-                put(x, y, 0)
-    tw, th, body = word_mask(text, h, adv)
+                put(x, y, bg)
+    tw, th, body = word_mask(text, h, adv, sx, sy, bold)
     ox = x0 + (w - tw) // 2
     for (x, y) in body:
         put(ox + x, y0 + y, low if y >= th * 5 // 8 + 1 else fill)
@@ -95,7 +97,7 @@ def main():
         kw = {}
         for o in opts.split():
             k, _, v = o.partition("=")
-            kw[k] = True if not v else int(v)
+            kw[k] = True if not v else float(v) if "." in v else int(v)
         paint(img, meta, int(x), int(y), int(w), text, **kw)
     img.save(png)
     print(png)
