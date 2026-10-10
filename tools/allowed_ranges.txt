@@ -50,3 +50,4 @@ ABB9D-ABC0C     minigame GAME OVER / CLEAR tilemap copy
 B27E3-B2852     minigame GAME OVER / CLEAR tilemap copy
 CDA04-CDA73     minigame GAME OVER / CLEAR tilemap copy
 51A00-51DFF     stall signs (takoyaki, corn, candy) in the stall sheet
+904C0-9053F     autumn bridge board sign

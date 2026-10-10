@@ -21,7 +21,35 @@ SIGNS = [("takoyaki", 1, 46, {8, 5, 0xE, 0xD}, 8, "TAKOYAKI", 6),
          ("candy", 97, 127, {8}, 8, "CANDY", 6)]
 
 
+BRIDGE_TILES = 0x904C0  # autumn bridge: "はしのうえ" board, 4 tiles (32 px) wide, text rows 2-7, ink f on plate 2
+SMALL = {"B": "1110 1001 1110 1001 1001 1110", "R": "1110 1001 1110 1010 1001 1001", "I": "111 010 010 010 010 111",
+         "D": "1110 1001 1001 1001 1001 1110", "G": "0111 1000 1011 1001 1001 0111", "E": "1111 1000 1110 1000 1000 1111"}
+
+
+def bridge(rom):
+    px = [[0] * 32 for _ in range(8)]
+    for i in range(4):
+        t = gfx.decode(rom, BRIDGE_TILES + i * 32, 4)
+        for y in range(8):
+            px[y][i * 8:i * 8 + 8] = t[y]
+    assert px[3][4] == 0xF and px[1][1] == 2, "not the bridge board"
+    for y in range(1, 8):
+        for x in range(1, 31):
+            px[y][x] = 2
+    x = 2
+    for ch in "BRIDGE":
+        g = SMALL[ch].split()
+        for dy, line in enumerate(g):
+            for dx, bit in enumerate(line):
+                if bit == "1":
+                    px[2 + dy][x + dx] = 0xF
+        x += len(g[0]) + 1
+    for i in range(4):
+        rom[BRIDGE_TILES + i * 32:BRIDGE_TILES + i * 32 + 32] = gfx.encode([r[i * 8:i * 8 + 8] for r in px], 4)
+
+
 def apply(rom):
+    bridge(rom)
     px = [[0] * 128 for _ in range(16)]  # sheet rows 5-6
     for r in (5, 6):
         for c in range(16):
