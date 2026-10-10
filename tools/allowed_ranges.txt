@@ -31,3 +31,15 @@ ADCC0-ADD7F     minigame puzzle: NEXT plaque BG1 tiles (second tile row)
 ADB80-ADBFF     stall food puzzle: FULL plaque BG1 tiles
 ADD80-ADE7F     stall food puzzle: FULL plaque BG1 tiles
 AE000-AE07F     stall food puzzle: FULL plaque BG1 tiles
+A4140-A415F     Chick Catch score plaque yen tile
+3EA00-3EAFF     stage select STAGE label BG3 tiles
+2B140-2B1FF     stage select EXIT sign BG1 tiles
+2B340-2B43F     stage select EXIT sign BG1 tiles
+2B3C0-2B3FF     stage select EXIT sign BG1 tiles
+2B600-2B63F     stage select EXIT sign BG1 tiles
+C83C0-C83DB     shop: card name loop count + long operands
+C87F4-C8803     shop: Money: label words
+1F9300-1F93FF   bank $3F: shop card name records
+CBE0F-CBE1A     shop: sold-out (card 4) patch
+CBEA0-CBEA4     shop: sold-out (cards 1-3) patch
+CBE0F-CBE22     shop: sold-out (card 4) patch (jml)

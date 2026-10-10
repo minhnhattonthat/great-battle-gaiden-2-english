@@ -79,7 +79,29 @@ go_line1: db "Don't give up! GO! GO!"
 go_line2: db "Compati Heroes!"
 warnpc $0BE244
 
+; ---------------------------------------------------------------------------------------------------------------
+; Shop "sold out" (うりきれ, 5 tiles): SOLD OUT takes 8 tiles. $19:BEA0 is the writer for cards 1-3 (Y = old left
+; column, the caller's LDY is unchanged: shifted two tiles left here); card 4 has its own copy at $19:BE0F.
+org $19BEA0
+    jsl soldout_cards : rts
+org $19BE0F
+    rep #$30 : ldy #$5A90 : jsl soldout : jml $19BE3D
+
 org !CODE
+soldout_cards:
+    rep #$30
+    dey : dey
+soldout:                        ; Y = BG3 VRAM word address of the first tile
+    lda #$0008 : sta $00
+    ldx #$0000
+    jsl $00FF57                 ; open a VRAM write record: A = tiles, Y = address; returns Y = buffer index
+-   lda.l soldtext,x : sta $00C0,y
+    inx : inx : iny : iny
+    dec $00 : bne -
+    jsl $00FF5A
+    rtl
+soldtext: db "S",$20,"O",$20,"L",$20,"D",$20," ",$20,"O",$20,"U",$20,"T",$20
+
 prepass_count:
     cmp #$FC                    ; byte < $F9: a character
     bcc .char

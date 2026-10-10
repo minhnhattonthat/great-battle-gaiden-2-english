@@ -180,7 +180,7 @@ def import_png(png, rom, mapping, allow_outside=False):
         users = [c for c, v in cm.items() if v[0] == addr and c not in inside]
         if allow_outside == "mirror32":  # the same rect repeated 32 cells to the right (2-screen-wide map)
             users = [(x, y) for x, y in users if (x - 32, y) not in inside]
-        if users:
+        if users and allow_outside != "any":  # "any": the same tiles are meant to change everywhere they are shown
             raise SystemExit(f"tile {addr:04X} changed but also used outside the rect at {users[:4]}")
         rom[src:src + len(data)] = data
         changed += 1

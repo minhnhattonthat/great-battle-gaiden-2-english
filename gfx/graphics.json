@@ -55,5 +55,23 @@
   "png": "stall_full.png",
   "map": "0000:AD200",
   "note": "stall food puzzle FULL plaque (BG1 4bpp raw, VRAM+0xAD200)"
+ },
+ {
+  "script": "chick_hud.py",
+  "note": "Chick Catch score plaque yen sign (BG1 tile 0x440 <- 0xA4140)"
+ },
+ {
+  "png": "stage_label.png",
+  "map": "9000:3EA00",
+  "allow_outside": "any",
+  "note": "stage select: STAGE label (BG3 tiles 0x100-0x10F, shared by the four cards)"
+ },
+ {
+  "script": "exit_sign.py",
+  "note": "stage select / shop EXIT sign (BG1 plate, 16 tiles at ROM VRAM+0x2B000)"
+ },
+ {
+  "script": "shop.py",
+  "note": "shooting shop: card names blob (bank 3F), Money: label; sold-out writer in asm"
  }
 ]
