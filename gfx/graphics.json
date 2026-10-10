@@ -73,5 +73,9 @@
  {
   "script": "shop.py",
   "note": "shooting shop: card names blob (bank 3F), Money: label; sold-out writer in asm"
+ },
+ {
+  "script": "cards.py",
+  "note": "attract copyright cards: English lines from BG3 font tiles (tilemap record groups bank 21)"
  }
 ]
