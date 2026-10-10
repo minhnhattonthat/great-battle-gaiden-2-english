@@ -53,8 +53,8 @@ Skill: translate-retro-game (H:/translation/great-battle-gaiden-2/.claude/skills
 - Scene warp: after the password is accepted poke WRAM $040B = scene (0-33; 6 per season, bosses e.g. 3, 5, 9, 11,
   15, 17, 21, 23, 33) -> work/scene.py. Cutscenes: $0454 read at $01:9935 (table $01:CF3B); 10 = ending + staff roll
   (work/cut.py 10). Done there: staff roll (gfx/staffroll.py), THE END, ending picture signs, boss float PRIZE placard.
-- Left on purpose / open: Kaminarimon landmark kanji (雷門 lantern, 金龍山 plaque, scene 3), 大安売 sale flag on the
-  scene 23 boss (sprite sheet 0xB8000, several poses, cloth ~10 px wide).
+- Left on purpose / open: Kaminarimon landmark kanji (雷門 lantern, 金龍山 plaque, scene 3). The 大安売 flag on the
+  scene 23 boss is painted blank (gfx/sale_flag.py).
 - Next: autumn board's second text line (under はしのうえ, tiles 0x90880+, not seen in game), the two open items above
   (ask the user), then release (BPS, README). All 34 scenes + ending reviewed by screenshots (work/scenes_all.py).
 - Polish pass: translator notes listed in docs/review/2026-10-10-astra.md.

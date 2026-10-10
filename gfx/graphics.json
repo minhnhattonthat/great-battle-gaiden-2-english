@@ -104,5 +104,9 @@
   "png": "b11_prize.png",
   "map": "0000:79800",
   "note": "stage 2/final boss float placard -> PRIZE (gfx/b11_draw.py)"
+ },
+ {
+  "script": "sale_flag.py",
+  "note": "winter boss flag: kanji painted out (sprite sheet 0xB8000)"
  }
 ]

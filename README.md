@@ -49,7 +49,6 @@ LoROM; it has not been tested on real hardware.
 ## Known issues
 
 - The Kaminarimon gate in the Asakusa boss room still shows its real-world kanji signs (雷門 lantern, 金龍山 plaque).
-- The flag carried by the Winter-castle boss still reads 大安売 ("big sale").
 - A second text line on the autumn bridge board (a tile set that never appeared in my playthroughs) may still be Japanese.
 - Staff roll lines are shortened where the original space ran out (e.g. "OP/ED Program", "Software Team").
 - Stage banner words are split in two lines (SPR/ING, SUM/MER...) because six letters do not fit one sprite.
