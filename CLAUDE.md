@@ -48,7 +48,9 @@ Skill: translate-retro-game (H:/translation/great-battle-gaiden-2/.claude/skills
 - Done: all 198 messages translated + astra-reviewed (docs/review/), item names, game over/continue text, graphics
   above. In game checked: title, password, minigame menu, game corner, intro talk, player select, Emmy guide, stall
   pop-ups, stage banner, HUD, game over.
-- Next (JP left): attract copyright cards (©石森プロ etc.), stall/gate signs on the map, げーむ sign in Emmy's room,
-  minigame play screens, stages 2-4 (banners blind), bosses, ending/credits (never reached: random tours stay in
-  stage 1; needs a route or RAM stage select). Then release (BPS, README).
+- Also done: stall signs TAKOYAKI/CORN/CANDY (gfx/signs.py), autumn bridge board BRIDGE, all four banners seen
+  (two-line season words), minigames (puzzle, stage select, shop, Chick Catch, Block Break, shooter) reviewed.
+- Next (JP left): autumn board's second text line (ぷか.. under はしのうえ, tiles 0x90880+, not seen in game yet),
+  other-stage signs/bosses/ending (bots die; sweep with work/pwall.py S A frames: forced password + HP freeze at $090C),
+  Emmy-room げーむ sign not found (room shows no baked JP), staff roll/ending never reached. Then release (BPS, README).
 - Polish pass: translator notes listed in docs/review/2026-10-10-astra.md.
