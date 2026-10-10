@@ -51,3 +51,8 @@ B27E3-B2852     minigame GAME OVER / CLEAR tilemap copy
 CDA04-CDA73     minigame GAME OVER / CLEAR tilemap copy
 51A00-51DFF     stall signs (takoyaki, corn, candy) in the stall sheet
 904C0-9053F     autumn bridge board sign
+C30C-C675       ending staff roll table + strings
+2FD20-2FFFF     ending picture tiles (TAKOYAKI / MINT)
+7FA00-7FFFF     ending picture tiles
+9FA00-9FEBF     ending picture tiles
+1600-19FF       ending THE END (BG3 tiles)

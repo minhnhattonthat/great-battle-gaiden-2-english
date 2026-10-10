@@ -85,5 +85,19 @@
  {
   "script": "signs.py",
   "note": "stall signs in the stall sheet (ROM 0x51000): TAKOYAKI, CORN, CANDY"
+ },
+ {
+  "script": "staffroll.py",
+  "note": "ending staff roll lines (bank 01 $C30C table + strings)"
+ },
+ {
+  "png": "endpic.png",
+  "map": "3000:2F800,3800:7FA00,3E00:9FA00,4400:96C00",
+  "note": "ending picture: TAKOYAKI banner, MINT sign (drawn by gfx/endpic_draw.py)"
+ },
+ {
+  "png": "end_kanji.png",
+  "map": "9000:1600",
+  "note": "ending 終 -> THE END (BG3 2bpp, raw at 0x1600)"
  }
 ]

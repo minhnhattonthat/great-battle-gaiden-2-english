@@ -172,7 +172,7 @@ def import_png(png, rom, mapping, allow_outside=False):
     for addr, data in tiles.items():
         if meta["orig"][f"{addr:04X}"] == data.hex():
             continue  # untouched in the PNG
-        src = next((ro + addr - vb for vb, ro in maps if vb <= addr < vb + 0x10000), None)
+        src = max(((vb, ro + addr - vb) for vb, ro in maps if vb <= addr), default=(0, None))[1]  # nearest run below
         if src is None:
             raise SystemExit(f"tile {addr:04X}: no --map")
         if rom[src:src + len(data)] == data:
