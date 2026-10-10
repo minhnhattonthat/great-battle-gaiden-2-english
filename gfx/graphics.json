@@ -77,5 +77,9 @@
  {
   "script": "cards.py",
   "note": "attract copyright cards: English lines from BG3 font tiles (tilemap record groups bank 21)"
+ },
+ {
+  "script": "mg_over.py",
+  "note": "minigame GAME CLEAR / GAME OVER banner (BG3 tiles 0x124-0x135 + 3 tilemap copies)"
  }
 ]

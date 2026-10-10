@@ -17,6 +17,7 @@ import gfx  # noqa: E402
 BASE, ROWS = 0x36400, 9          # sheet rows of 16 tiles
 FONT = "C:/Windows/Fonts/impact.ttf"
 EDGE = 6
+SEASONS = {"WINTER", "SPRING", "SUMMER", "AUTUMN"}
 # (erase x0, x1, y0, y1), (draw y0, y1), English. Spring shows sheet rows 0-3 (season) and rows 4-7 (の お 祭; り
 # wraps in from rows 5-8 of columns 0-3), so the words share a baseline at sprite row 31. Rows 8+ of columns 4-15
 # hold other sprites: never touch them.
@@ -65,15 +66,22 @@ def apply(rom):
             fills = [2]  # の was dark green; FESTIVAL reads as one word in red (index 2, as お 祭 り)
         for x, y in pts:
             px[y][x] = 0
-        w, h = x1 - x0 - 4, dy1 - dy0 - 2
-        m = text_mask(word, w, h)
-        ox, oy = x0 + 2, dy0 + 1
-        body = {(ox + x, oy + y) for y in range(h) for x in range(w) if m.getpixel((x, y))}
+        if word in SEASONS:  # six letters do not fit one 32 px sprite: two lines of three over the visible window
+            rows = [(word[:3], y0 + 1, y0 + 15), (word[3:], y0 + 17, y0 + 31)]
+            top, hh = y0 + 1, 30
+        else:
+            rows = [(word, dy0 + 1, dy1 - 1)]
+            top, hh = dy0 + 1, dy1 - dy0 - 2
+        body = set()
+        for txt, ry0, ry1 in rows:
+            w, h = x1 - x0 - 2, ry1 - ry0
+            m = text_mask(txt, w, h)
+            body |= {(x0 + 1 + x, ry0 + y) for y in range(h) for x in range(w) if m.getpixel((x, y))}
         for x, y in body:
             for dx in (-1, 0, 1):
                 for dy in (-1, 0, 1):
                     if (x + dx, y + dy) not in body:
                         px[y + dy][x + dx] = EDGE
         for x, y in body:
-            px[y][x] = fills[min(len(fills) - 1, (y - oy) * len(fills) // h)]
+            px[y][x] = fills[min(len(fills) - 1, (y - top) * len(fills) // hh)]
     unsheet(rom, px)

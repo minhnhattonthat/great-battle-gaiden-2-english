@@ -35,8 +35,14 @@ Skill: translate-retro-game (H:/translation/great-battle-gaiden-2/.claude/skills
 - PNG entries: `tools/gfx.py export DUMP --bg N|0 --rect` (0 = sprites) from a `tools/lua/ppudump.lua` dump, edit
   (tools/gfxtext.py spec or a gfx/*.py drawer), import maps VRAM->ROM (find with tools/vramfind.py). Script entries:
   gfx/<name>.py apply(rom) for tiles + tilemap record streams (bank $21: word count, word VRAM, entries).
-- Done: title logo/top line/menu, MINIGAME sub-menu, stage banner (spring seen; other seasons drawn blind),
-  game over + YES/NO, HUD YEN, password screen (texts + header), game corner header.
+- Done: title logo/top line/menu, MINIGAME sub-menu, stage banner (spring + summer seen), game over + YES/NO, HUD YEN,
+  password screen, game corner header, attract copyright cards (gfx/cards.py), puzzle SCORE/LEVEL/NEXT, stall puzzle
+  FULL plaque, Chick Catch yen, stage select STAGE + EXIT sign, shooting shop (gfx/shop.py + asm sold-out), minigame
+  GAME OVER/CLEAR banner (gfx/mg_over.py).
+- QA helpers: tools/mkstate.py (route -> state + PPU dump), tools/gfxpreview.py (patch an old state's VRAM with new
+  tiles), tools/tmdump.py, stack.py, montage.py, romsheets.py, tools/routes/mg_*.txt. Newer-Mesen savestates: byte 4 = 1.
+- Warp to any stage: password slots = 8 nibbles at WRAM $0900+2i (v0 key != 0, v2 = (v0+season+4*area)&15, v4..v10
+  data, v12 | v14<<4 = -(v0+v2+v4+v6+v8+v10) & 255); poke them on the password screen, press Start (work/pwrun.py).
 
 ## Status (2026-10-10)
 - Done: all 198 messages translated + astra-reviewed (docs/review/), item names, game over/continue text, graphics

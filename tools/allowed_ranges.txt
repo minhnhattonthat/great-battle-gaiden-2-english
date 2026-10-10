@@ -45,3 +45,7 @@ CBEA0-CBEA4     shop: sold-out (cards 1-3) patch
 CBE0F-CBE22     shop: sold-out (card 4) patch (jml)
 10CA08-10CCAC   attract copyright cards: tilemap record groups
 45F0-45FF       font tile 9F: copyright sign
+A87C0-A88DF     minigame GAME OVER / CLEAR BG3 tiles
+ABB9D-ABC0C     minigame GAME OVER / CLEAR tilemap copy
+B27E3-B2852     minigame GAME OVER / CLEAR tilemap copy
+CDA04-CDA73     minigame GAME OVER / CLEAR tilemap copy
