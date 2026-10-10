@@ -99,5 +99,10 @@
   "png": "end_kanji.png",
   "map": "9000:1600",
   "note": "ending 終 -> THE END (BG3 2bpp, raw at 0x1600)"
+ },
+ {
+  "png": "b11_prize.png",
+  "map": "0000:79800",
+  "note": "stage 2/final boss float placard -> PRIZE (gfx/b11_draw.py)"
  }
 ]

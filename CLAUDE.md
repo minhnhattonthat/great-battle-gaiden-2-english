@@ -50,6 +50,11 @@ Skill: translate-retro-game (H:/translation/great-battle-gaiden-2/.claude/skills
   pop-ups, stage banner, HUD, game over.
 - Also done: stall signs TAKOYAKI/CORN/CANDY (gfx/signs.py), autumn bridge board BRIDGE, all four banners seen
   (two-line season words), minigames (puzzle, stage select, shop, Chick Catch, Block Break, shooter) reviewed.
+- Scene warp: after the password is accepted poke WRAM $040B = scene (0-33; 6 per season, bosses e.g. 3, 5, 9, 11,
+  15, 17, 21, 23, 33) -> work/scene.py. Cutscenes: $0454 read at $01:9935 (table $01:CF3B); 10 = ending + staff roll
+  (work/cut.py 10). Done there: staff roll (gfx/staffroll.py), THE END, ending picture signs, boss float PRIZE placard.
+- Left on purpose / open: Kaminarimon landmark kanji (雷門 lantern, 金龍山 plaque, scene 3), 大安売 sale flag on the
+  scene 23 boss (sprite sheet 0xB8000, several poses, cloth ~10 px wide).
 - Next (JP left): autumn board's second text line (ぷか.. under はしのうえ, tiles 0x90880+, not seen in game yet),
   other-stage signs/bosses/ending (bots die; sweep with work/pwall.py S A frames: forced password + HP freeze at $090C),
   Emmy-room げーむ sign not found (room shows no baked JP), staff roll/ending never reached. Then release (BPS, README).

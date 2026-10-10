@@ -56,3 +56,4 @@ C30C-C675       ending staff roll table + strings
 7FA00-7FFFF     ending picture tiles
 9FA00-9FEBF     ending picture tiles
 1600-19FF       ending THE END (BG3 tiles)
+7A980-7ABFF     boss float placard PRIZE (BG1 tiles)
