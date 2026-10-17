@@ -77,3 +77,9 @@ Translation and hacking: minhnhattonthat, with AI assistance (Claude; script rev
 Original game © Banpresto 1994; Kamen Rider © Ishimori Pro / Toei, Ultraman © Tsuburaya Pro, Gundam © Sotsu Agency /
 Sunrise. This is an unofficial fan project, not affiliated with or endorsed by any rights holder. The patch contains no
 original game data; do not ask for ROMs.
+
+## Support
+
+If you enjoy this translation, you can support my work on Ko-fi:
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/minhnhattonthat)
