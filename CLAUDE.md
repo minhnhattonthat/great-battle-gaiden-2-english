@@ -20,6 +20,7 @@ Skill: translate-retro-game (H:/translation/great-battle-gaiden-2/.claude/skills
 - Names: official English (franchise) first, else Hepburn no macrons. Honorifics kept, JP name order.
 - Credits in English. Plans pre-approved. Graphics: translate all, title logo included. No abbreviations (engine work / extra pages first).
 - Review agents: multi-openai gpt-6-astra (they can't write files: save reports yourself).
+- Player bug reports: GitHub issues (`gh issue list --label bug`). Copy the attached save into `work/states/`, reproduce in the emulator, fix, commit with `Fixes #N`, and update the Status section.
 
 ## Engine
 - Messages: header $1A:C000 -> 6-byte header (speed, attr, VRAM start, arrow); bodies moved to $28:8000 by build.

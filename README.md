@@ -8,6 +8,9 @@ Version **1.1**.
 
 Changes in 1.1: the Winter-castle boss flag no longer says 大安売.
 
+**Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
+helps most.
+
 ## What is translated
 
 - All 198 script messages (story, bosses, stall keepers, Emmy's guide, game corner, BGM commentary), with a review pass.
