@@ -11,14 +11,17 @@ Changes in 1.1: the Winter-castle boss flag no longer says 大安売.
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
 
-## What is translated
+## Translation status
 
-- All 198 script messages (story, bosses, stall keepers, Emmy's guide, game corner, BGM commentary), with a review pass.
-- Title screen and logo, menus, password screen, game over / continue, HUD, stage banners (SPRING / SUMMER / AUTUMN /
-  WINTER FESTIVAL), stall item names and stall signs, shop, player select.
-- Game Corner minigames: menu, stage select, shooting shop, puzzle labels (SCORE / LEVEL / NEXT / FULL), Chick Catch,
-  GAME OVER / GAME CLEAR banners.
-- Attract-mode copyright cards, ending picture signs, THE END and the full staff roll.
+| Part | Status |
+|---|---|
+| All 198 script messages (story, bosses, stall keepers, Emmy's guide, game corner, BGM commentary), reviewed | Translated |
+| Title screen and logo, menus, password screen, game over / continue, HUD, shop, player select | Translated |
+| Stage banners (SPRING / SUMMER / AUTUMN / WINTER FESTIVAL), stall item names and signs, attract-mode copyright cards, ending picture signs | Partly translated (Kaminarimon gate kanji signs kept; one autumn bridge-board line may be Japanese) |
+| Game Corner minigames (menu, stage select, shooting shop, puzzle labels SCORE / LEVEL / NEXT / FULL, Chick Catch, GAME OVER / GAME CLEAR banners) | Translated |
+| THE END and the full staff roll | Translated (some lines shortened to fit) |
+
+Known issues: see [Known issues](#known-issues) below.
 
 Naming: official English names for the Compati Heroes where they exist (Great, RX, Roar...), otherwise Hepburn without
 macrons. Honorifics are kept and names stay in Japanese order. Full list: `glossary.md`.
